@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_library_book_list" model="ir.ui.view">
+        <field name="name">library.book.list</field>
+        <field name="model">library.book</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="author"/>
+                <field name="isbn"/>
+                <field name="publish_year"/>
+                <field name="copy_ids" widget="many2many_tags"/>
+            </list>
+        </field>
+    </record>
+    <record id="view_library_book_form" model="ir.ui.view">
+        <field name="name">library.book.form</field>
+        <field name="model">library.book</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="author"/>
+                        <field name="isbn"/>
+                        <field name="publish_year"/>
+                    </group>
+                    <notebook>
+                        <page string="Примірники">
+                            <field name="copy_ids">
+                                <list editable="bottom">
+                                    <field name="name"/>
+                                    <field name="state"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="view_library_book_search" model="ir.ui.view">
+        <field name="name">library.book.search</field>
+        <field name="model">library.book</field>
+        <field name="arch" type="xml">
+            <search string="Пошук книг">
+                <field name="name"/>
+                <field name="author"/>
+                <field name="isbn"/>
+                <filter name="has_copies" string="З примірниками" domain="[('copy_ids', '!=', False)]"/>
+                <group name="group_by">
+                    <filter name="group_author" string="Автор" domain="[]" context="{'group_by': 'author'}"/>
+                    <filter name="group_year" string="Роком видання" domain="[]" context="{'group_by': 'publish_year'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+    <record id="action_library_book" model="ir.actions.act_window">
+        <field name="name">Книги</field>
+        <field name="res_model">library.book</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_library_book_search"/>
+    </record>
+</odoo>

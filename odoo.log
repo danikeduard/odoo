@@ -768,3 +768,938 @@ psycopg2.OperationalError: server closed the connection unexpectedly
 2026-10-16 23:44:02,542 6864 INFO odoo werkzeug: 127.0.0.1 - - [16/Oct/2026 23:44:02] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.002 0.016
 2026-10-16 23:44:02,607 6864 INFO odoo werkzeug: 127.0.0.1 - - [16/Oct/2026 23:44:02] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.002
 2026-10-16 23:44:02,747 6864 INFO odoo werkzeug: 127.0.0.1 - - [16/Oct/2026 23:44:02] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-17 00:33:16,782 6864 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 19\server\odoo\addons\bus\models\bus.py", line 264, in run
+    self.loop()
+  File "C:\Program Files\Odoo 19\server\odoo\addons\bus\models\bus.py", line 249, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2026-10-17 00:33:16,792 6864 INFO ? odoo.service.server: cron1 max age (0s) reached, releasing connection. 
+2026-10-17 00:33:16,797 6864 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-17 00:33:16,797 6864 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-17 08:21:25,976 9804 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 08:21:25,976 9804 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 08:21:25,977 9804 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 08:21:25,977 9804 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 08:21:27,230 9804 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-17 08:21:32,904 9804 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-17 08:21:32,906 9804 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 08:21:32,913 9804 WARNING ? odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 08:21:32,915 9804 INFO ? odoo.modules.loading: loading 15 modules... 
+2026-10-17 08:21:33,134 9804 INFO ? odoo.modules.loading: 15 modules loaded in 0.22s, 0 queries (+0 extra) 
+2026-10-17 08:21:33,158 9804 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-17 08:21:33,169 9804 INFO ? odoo.registry: Registry loaded in 0.320s 
+2026-10-17 08:21:33,170 9804 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-17 08:21:33,183 9804 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (tkAu481b2yLquQRNc4jUI3Hn40BGnpI6roosSgrc47) 
+2026-10-17 08:21:33,198 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:33] "GET / HTTP/1.1" 303 - 33 0.062 0.288
+2026-10-17 08:21:33,560 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:33] "GET /odoo HTTP/1.1" 200 - 55 0.031 0.323
+2026-10-17 08:21:33,649 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:33] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.006 0.009
+2026-10-17 08:21:34,516 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:34] "POST /web/action/load HTTP/1.1" 200 - 10 0.054 0.351
+2026-10-17 08:21:34,516 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 5 0.007 0.354
+2026-10-17 08:21:34,516 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:34] "GET /web/webclient/translations?hash=95d6078399e4d88682872284bc720158e8fab15e&lang=uk_UA HTTP/1.1" 200 - 2 0.000 0.499
+2026-10-17 08:21:34,517 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:34] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 41 0.048 0.315
+2026-10-17 08:21:34,517 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 44 0.023 0.339
+2026-10-17 08:21:34,571 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:34] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.005 0.410
+2026-10-17 08:21:34,829 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:34] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.004
+2026-10-17 08:21:34,829 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:34] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.003
+2026-10-17 08:21:34,832 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:34] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.002 0.006
+2026-10-17 08:21:34,836 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:34] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.004 0.007
+2026-10-17 08:21:34,840 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:34] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.009 0.007
+2026-10-17 08:21:35,231 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:35] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.002
+2026-10-17 08:21:35,543 9804 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-17 08:21:36,619 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.006 0.007
+2026-10-17 08:21:36,639 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:36] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.002 0.030
+2026-10-17 08:21:36,810 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:36] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-17 08:21:36,810 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:36] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-17 08:21:39,573 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:39] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.012 0.008
+2026-10-17 08:21:39,896 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:39] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.004 0.004
+2026-10-17 08:21:40,093 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:40] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-17 08:21:53,611 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:53] "POST /web/dataset/call_button/ir.module.module/more_info#ir.module.module.more_info HTTP/1.1" 200 - 1 0.001 0.003
+2026-10-17 08:21:53,926 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:53] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-17 08:21:54,164 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:54] "POST /web/dataset/call_kw/ir.module.module/web_read#ir.module.module.web_read HTTP/1.1" 200 - 11 0.007 0.017
+2026-10-17 08:21:54,237 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:21:54] "GET /web/image/ir.module.module/714/icon_image?unique=1792193838000 HTTP/1.1" 200 - 3 0.000 0.003
+2026-10-17 08:33:03,842 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:33:03] "GET /odoo/apps HTTP/1.1" 200 - 9 0.000 0.008
+2026-10-17 08:33:03,915 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:33:03] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-17 08:33:04,030 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:33:04] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.000 0.003
+2026-10-17 08:33:05,237 9804 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 08:33:05] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-17 09:52:08,538 9804 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-17 09:52:08,538 9804 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-17 09:52:08,827 9804 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-10-17 09:52:08,827 9804 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 4 connections  
+2026-10-17 10:06:00,533 15576 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:06:00,534 15576 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:06:00,534 15576 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:06:00,534 15576 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 10:06:02,162 15576 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-17 10:06:06,249 15576 INFO ? odoo.sql_db: Connection to the database failed 
+2026-10-17 10:06:18,269 1420 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:06:18,269 1420 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:06:18,269 1420 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:06:18,269 1420 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 10:06:19,359 1420 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-17 10:06:23,648 18992 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:06:23,649 18992 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:06:23,649 18992 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:06:23,649 18992 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 10:06:24,980 18992 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-17 10:06:41,992 1420 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:06:41,995 1420 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:06:41,997 1420 WARNING ? odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:06:41,998 1420 INFO ? odoo.modules.loading: loading 15 modules... 
+2026-10-17 10:06:42,006 1420 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:06:42,006 1420 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:06:42,130 1420 INFO ? odoo.modules.loading: 15 modules loaded in 0.13s, 0 queries (+0 extra) 
+2026-10-17 10:06:42,150 1420 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-17 10:06:42,154 1420 WARNING ? odoo.schema: Missing not-null constraint on library.book.name 
+2026-10-17 10:06:42,154 1420 WARNING ? odoo.schema: Missing not-null constraint on library.book.author 
+2026-10-17 10:06:42,154 1420 WARNING ? odoo.schema: Missing not-null constraint on library.copy.name 
+2026-10-17 10:06:42,154 1420 WARNING ? odoo.schema: Missing not-null constraint on library.copy.book_id 
+2026-10-17 10:06:42,154 1420 WARNING ? odoo.schema: Missing not-null constraint on library.copy.state 
+2026-10-17 10:06:42,154 1420 WARNING ? odoo.schema: Missing not-null constraint on library.loan.copy_id 
+2026-10-17 10:06:42,154 1420 WARNING ? odoo.schema: Missing not-null constraint on library.loan.member_id 
+2026-10-17 10:06:42,154 1420 WARNING ? odoo.schema: Missing not-null constraint on library.loan.loan_date 
+2026-10-17 10:06:42,154 1420 WARNING ? odoo.schema: Missing not-null constraint on library.loan.due_date 
+2026-10-17 10:06:42,154 1420 WARNING ? odoo.schema: Missing not-null constraint on library.loan.state 
+2026-10-17 10:06:42,154 1420 WARNING ? odoo.schema: Missing not-null constraint on library.member.name 
+2026-10-17 10:06:42,154 1420 WARNING ? odoo.schema: Missing not-null constraint on library.member.card_number 
+2026-10-17 10:06:42,159 1420 INFO ? odoo.registry: Registry loaded in 0.204s 
+2026-10-17 10:06:42,160 1420 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-17 10:06:42,167 1420 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (tkAu481b2yLquQRNc4jUI3Hn40BGnpI6roosSgrc47) 
+2026-10-17 10:06:42,174 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:42] "GET / HTTP/1.1" 303 - 32 0.019 0.201
+2026-10-17 10:06:42,391 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:42] "GET /odoo HTTP/1.1" 200 - 55 0.015 0.194
+2026-10-17 10:06:42,475 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:42] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.005 0.003
+2026-10-17 10:06:43,212 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:43] "POST /web/action/load HTTP/1.1" 200 - 10 0.013 0.269
+2026-10-17 10:06:43,214 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 5 0.019 0.234
+2026-10-17 10:06:43,221 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 44 0.150 0.109
+2026-10-17 10:06:43,227 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:43] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 41 0.115 0.152
+2026-10-17 10:06:43,270 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:43] "GET /web/webclient/translations?hash=95d6078399e4d88682872284bc720158e8fab15e&lang=uk_UA HTTP/1.1" 200 - 2 0.000 0.451
+2026-10-17 10:06:43,281 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:43] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.005 0.314
+2026-10-17 10:06:43,526 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:43] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.001
+2026-10-17 10:06:43,527 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:43] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-17 10:06:43,530 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:43] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.004 0.002
+2026-10-17 10:06:43,538 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:43] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 15 0.003 0.007
+2026-10-17 10:06:43,579 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:43] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.001 0.004
+2026-10-17 10:06:43,928 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:43] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.002
+2026-10-17 10:06:44,241 1420 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-17 10:06:45,517 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:45] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-17 10:06:45,727 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:45] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.004 0.008
+2026-10-17 10:06:45,872 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:45] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.003 0.014
+2026-10-17 10:06:45,897 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:45] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-17 10:06:49,927 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:49] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.006
+2026-10-17 10:06:50,123 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:50] "POST /web/dataset/call_kw/base.module.update/get_views#base.module.update.get_views HTTP/1.1" 200 - 11 0.002 0.006
+2026-10-17 10:06:50,251 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:50] "POST /web/dataset/call_kw/base.module.update/onchange#base.module.update.onchange HTTP/1.1" 200 - 2 0.001 0.003
+2026-10-17 10:06:51,086 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:51] "POST /web/dataset/call_kw/base.module.update/web_save#base.module.update.web_save HTTP/1.1" 200 - 5 0.003 0.002
+2026-10-17 10:06:51,399 1420 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:06:51,850 1420 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:06:52,094 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:52] "POST /web/dataset/call_button/base.module.update/update_module#base.module.update.update_module HTTP/1.1" 200 - 1695 0.249 0.449
+2026-10-17 10:06:54,281 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.012 0.007
+2026-10-17 10:06:54,582 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.004 0.002
+2026-10-17 10:06:54,899 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:54] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-17 10:06:55,487 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:55] "POST /web/dataset/call_button/ir.module.module/more_info#ir.module.module.more_info HTTP/1.1" 200 - 1 0.000 0.005
+2026-10-17 10:06:55,811 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:55] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 1 0.000 0.004
+2026-10-17 10:06:55,830 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:55] "POST /web/dataset/call_kw/ir.module.module/web_read#ir.module.module.web_read HTTP/1.1" 200 - 9 0.006 0.016
+2026-10-17 10:06:56,014 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:56] "GET /web/image/ir.module.module/714/icon_image?unique=1792193838000 HTTP/1.1" 200 - 3 0.000 0.004
+2026-10-17 10:06:56,740 1420 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:06:56,742 1420 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:06:56,742 1420 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:06:57,117 1420 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:06:57,305 1420 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:06:57,521 1420 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:06:57,524 1420 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:06:57,538 1420 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-17 10:06:57,538 1420 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-17 10:06:57,889 1420 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:06:58,060 1420 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-17 10:06:58,060 1420 INFO odoo odoo.modules.loading: Loading module library_rental (2/15) 
+2026-10-17 10:06:58,062 1420 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:06:58,062 1420 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:06:58,063 1420 INFO odoo odoo.registry: module library_rental: creating or updating database tables 
+2026-10-17 10:06:58,143 1420 INFO odoo odoo.modules.loading: loading library_rental/security/ir.model.access.csv 
+2026-10-17 10:06:58,150 1420 INFO odoo odoo.modules.loading: loading library_rental/data/ir_cron.xml 
+2026-10-17 10:06:58,159 1420 INFO odoo odoo.modules.loading: loading library_rental/views/library_book_views.xml 
+2026-10-17 10:06:58,174 1420 WARNING odoo odoo.tools.view_validation: <string>:6:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element field, got nothing 
+2026-10-17 10:06:58,174 1420 WARNING odoo odoo.tools.view_validation: <string>:6:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute string for element group 
+2026-10-17 10:06:58,174 1420 WARNING odoo odoo.tools.view_validation: <string>:2:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element search has extra content: field 
+2026-10-17 10:06:58,174 1420 WARNING odoo odoo.tools.view_validation: Invalid XML:  Get RNG validator and validate RNG file. 
+2026-10-17 10:06:58,179 1420 WARNING odoo odoo.modules.loading: Transient module states were reset 
+2026-10-17 10:06:58,180 1420 ERROR odoo odoo.registry: Failed to load registry 
+2026-10-17 10:06:58,182 1420 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:06:58,184 1420 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:06:58,185 1420 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-17 10:06:58,185 1420 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:06:58,185 1420 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:06:58,187 1420 INFO odoo odoo.modules.loading: 15 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:06:58,204 1420 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-17 10:06:58,207 1420 WARNING odoo odoo.schema: Missing not-null constraint on library.book.name 
+2026-10-17 10:06:58,207 1420 WARNING odoo odoo.schema: Missing not-null constraint on library.book.author 
+2026-10-17 10:06:58,207 1420 WARNING odoo odoo.schema: Missing not-null constraint on library.copy.name 
+2026-10-17 10:06:58,207 1420 WARNING odoo odoo.schema: Missing not-null constraint on library.copy.book_id 
+2026-10-17 10:06:58,207 1420 WARNING odoo odoo.schema: Missing not-null constraint on library.copy.state 
+2026-10-17 10:06:58,207 1420 WARNING odoo odoo.schema: Missing not-null constraint on library.loan.copy_id 
+2026-10-17 10:06:58,207 1420 WARNING odoo odoo.schema: Missing not-null constraint on library.loan.member_id 
+2026-10-17 10:06:58,207 1420 WARNING odoo odoo.schema: Missing not-null constraint on library.loan.loan_date 
+2026-10-17 10:06:58,207 1420 WARNING odoo odoo.schema: Missing not-null constraint on library.loan.due_date 
+2026-10-17 10:06:58,207 1420 WARNING odoo odoo.schema: Missing not-null constraint on library.loan.state 
+2026-10-17 10:06:58,207 1420 WARNING odoo odoo.schema: Missing not-null constraint on library.member.name 
+2026-10-17 10:06:58,207 1420 WARNING odoo odoo.schema: Missing not-null constraint on library.member.card_number 
+2026-10-17 10:06:58,208 1420 INFO odoo odoo.registry: Registry loaded in 0.028s 
+2026-10-17 10:06:58,210 1420 ERROR odoo odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2852, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2331, in _serve_db
+    raise self._update_served_exception(exc)
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2329, in _serve_db
+    return service_model.retrying(serve_func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\service\model.py", line 188, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2379, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2594, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_http.py", line 353, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 838, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\web\controllers\dataset.py", line 38, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\service\model.py", line 97, in call_kw
+    result = method(recs, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 73, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 702, in button_immediate_upgrade
+    return self._button_immediate_function(self.env.registry[self._name].button_upgrade)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 639, in _button_immediate_function
+    registry = modules.registry.Registry.new(self.env.cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\tools\func.py", line 88, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\orm\registry.py", line 189, in new
+    load_modules(
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 464, in load_modules
+    load_module_graph(
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 224, in load_module_graph
+    load_data(env, idref, mode, kind='data', package=package)
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 59, in load_data
+    convert_file(env, package.name, filename, idref, mode, noupdate=kind == 'demo')
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 696, in convert_file
+    convert_xml_import(env, module, fp, idref, mode, noupdate)
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 795, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 666, in parse
+    self._tag_root(de)
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 619, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+odoo.tools.convert.ParseError: while parsing file:/c:/program%20files/odoo%2019/server/odoo/custom_addons/library_rental/views/library_book_views.xml:42
+Недійсний перегляд library.book.search визначення в library_rental/views/library_book_views.xml
+
+View error context:
+'-no context-'
+
+2026-10-17 10:06:58,211 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:06:58] "POST /web/dataset/call_button/ir.module.module/button_immediate_upgrade#ir.module.module.button_immediate_upgrade HTTP/1.1" 200 - 3578 0.517 0.957
+2026-10-17 10:07:21,986 19188 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:07:21,986 19188 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:07:21,986 19188 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:07:21,986 19188 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 10:07:23,365 19188 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-17 10:07:24,318 1420 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-17 10:07:24,533 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:07:24] "GET /odoo/apps/714/ir.module.module/714 HTTP/1.1" 200 - 67 0.011 0.205
+2026-10-17 10:07:24,574 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:07:24] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.002 0.006
+2026-10-17 10:07:24,581 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:07:24] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.001 0.002
+2026-10-17 10:07:24,952 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:07:24] "GET /web/webclient/translations?hash=95d6078399e4d88682872284bc720158e8fab15e&lang=uk_UA HTTP/1.1" 200 - 2 0.001 0.013
+2026-10-17 10:07:24,971 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:07:24] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.004 0.013
+2026-10-17 10:07:24,973 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:07:24] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.026 0.008
+2026-10-17 10:07:24,978 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:07:24] "POST /web/dataset/call_kw/ir.module.module/web_read#ir.module.module.web_read HTTP/1.1" 200 - 12 0.009 0.030
+2026-10-17 10:07:24,983 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:07:24] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 31 0.022 0.023
+2026-10-17 10:07:25,146 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:07:25] "GET /web/image/ir.module.module/714/icon_image?unique=1792231616000 HTTP/1.1" 200 - 3 0.001 0.002
+2026-10-17 10:07:25,284 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:07:25] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.002
+2026-10-17 10:07:25,902 1420 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:07:25,903 1420 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:07:25,903 1420 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:07:26,296 1420 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:07:26,485 1420 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:07:26,502 1420 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:07:26,504 1420 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:07:26,518 1420 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-17 10:07:26,519 1420 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-17 10:07:26,879 1420 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:07:27,050 1420 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-17 10:07:27,050 1420 INFO odoo odoo.modules.loading: Loading module library_rental (2/15) 
+2026-10-17 10:07:27,052 1420 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:07:27,052 1420 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:07:27,053 1420 INFO odoo odoo.registry: module library_rental: creating or updating database tables 
+2026-10-17 10:07:27,102 1420 INFO odoo odoo.modules.loading: loading library_rental/security/ir.model.access.csv 
+2026-10-17 10:07:27,107 1420 INFO odoo odoo.modules.loading: loading library_rental/data/ir_cron.xml 
+2026-10-17 10:07:27,113 1420 INFO odoo odoo.modules.loading: loading library_rental/views/library_book_views.xml 
+2026-10-17 10:07:27,123 1420 WARNING odoo odoo.tools.view_validation: <string>:6:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element field, got nothing 
+2026-10-17 10:07:27,123 1420 WARNING odoo odoo.tools.view_validation: <string>:6:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute string for element group 
+2026-10-17 10:07:27,123 1420 WARNING odoo odoo.tools.view_validation: <string>:2:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element search has extra content: field 
+2026-10-17 10:07:27,123 1420 WARNING odoo odoo.tools.view_validation: Invalid XML:  Get RNG validator and validate RNG file. 
+2026-10-17 10:07:27,127 1420 WARNING odoo odoo.modules.loading: Transient module states were reset 
+2026-10-17 10:07:27,128 1420 ERROR odoo odoo.registry: Failed to load registry 
+2026-10-17 10:07:27,130 1420 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:07:27,132 1420 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:07:27,132 1420 INFO ? odoo.modules.loading: loading 15 modules... 
+2026-10-17 10:07:27,133 1420 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:07:27,133 1420 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:07:27,135 1420 INFO ? odoo.modules.loading: 15 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:07:27,154 1420 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-17 10:07:27,156 1420 WARNING ? odoo.schema: Missing not-null constraint on library.book.name 
+2026-10-17 10:07:27,156 1420 WARNING ? odoo.schema: Missing not-null constraint on library.book.author 
+2026-10-17 10:07:27,156 1420 WARNING ? odoo.schema: Missing not-null constraint on library.copy.name 
+2026-10-17 10:07:27,156 1420 WARNING ? odoo.schema: Missing not-null constraint on library.copy.book_id 
+2026-10-17 10:07:27,156 1420 WARNING ? odoo.schema: Missing not-null constraint on library.copy.state 
+2026-10-17 10:07:27,156 1420 WARNING ? odoo.schema: Missing not-null constraint on library.loan.copy_id 
+2026-10-17 10:07:27,156 1420 WARNING ? odoo.schema: Missing not-null constraint on library.loan.member_id 
+2026-10-17 10:07:27,156 1420 WARNING ? odoo.schema: Missing not-null constraint on library.loan.loan_date 
+2026-10-17 10:07:27,156 1420 WARNING ? odoo.schema: Missing not-null constraint on library.loan.due_date 
+2026-10-17 10:07:27,157 1420 WARNING ? odoo.schema: Missing not-null constraint on library.loan.state 
+2026-10-17 10:07:27,157 1420 WARNING ? odoo.schema: Missing not-null constraint on library.member.name 
+2026-10-17 10:07:27,157 1420 WARNING ? odoo.schema: Missing not-null constraint on library.member.card_number 
+2026-10-17 10:07:27,157 1420 INFO ? odoo.registry: Registry loaded in 0.029s 
+2026-10-17 10:07:27,158 1420 ERROR odoo odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2852, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2331, in _serve_db
+    raise self._update_served_exception(exc)
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2329, in _serve_db
+    return service_model.retrying(serve_func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\service\model.py", line 188, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2379, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2594, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_http.py", line 353, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 838, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\web\controllers\dataset.py", line 38, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\service\model.py", line 97, in call_kw
+    result = method(recs, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 73, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 702, in button_immediate_upgrade
+    return self._button_immediate_function(self.env.registry[self._name].button_upgrade)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 639, in _button_immediate_function
+    registry = modules.registry.Registry.new(self.env.cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\tools\func.py", line 88, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\orm\registry.py", line 189, in new
+    load_modules(
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 464, in load_modules
+    load_module_graph(
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 224, in load_module_graph
+    load_data(env, idref, mode, kind='data', package=package)
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 59, in load_data
+    convert_file(env, package.name, filename, idref, mode, noupdate=kind == 'demo')
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 696, in convert_file
+    convert_xml_import(env, module, fp, idref, mode, noupdate)
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 795, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 666, in parse
+    self._tag_root(de)
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 619, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+odoo.tools.convert.ParseError: while parsing file:/c:/program%20files/odoo%2019/server/odoo/custom_addons/library_rental/views/library_book_views.xml:42
+Недійсний перегляд library.book.search визначення в library_rental/views/library_book_views.xml
+
+View error context:
+'-no context-'
+
+2026-10-17 10:07:27,159 1420 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-17 10:07:27,160 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:07:27] "POST /web/dataset/call_button/ir.module.module/button_immediate_upgrade#ir.module.module.button_immediate_upgrade HTTP/1.1" 200 - 3563 0.501 0.759
+2026-10-17 10:07:27,169 1420 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:07:27] "GET /web/service-worker.js HTTP/1.1" 200 - 23 0.007 0.324
+2026-10-17 10:08:33,012 1420 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-17 10:08:33,012 1420 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-17 10:08:33,179 1420 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-10-17 10:08:33,179 1420 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 9 connections  
+2026-10-17 10:08:52,158 4588 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:08:52,158 4588 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:08:52,158 4588 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:08:52,158 4588 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 10:08:53,412 4588 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-17 10:09:04,986 2252 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:09:04,987 2252 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:09:04,987 2252 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:09:04,987 2252 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 10:09:06,460 2252 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-17 10:09:21,516 4588 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:09:21,519 4588 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:09:21,521 4588 WARNING ? odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:09:21,522 4588 INFO ? odoo.modules.loading: loading 15 modules... 
+2026-10-17 10:09:21,525 4588 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:09:21,525 4588 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:09:21,645 4588 INFO ? odoo.modules.loading: 15 modules loaded in 0.12s, 0 queries (+0 extra) 
+2026-10-17 10:09:21,665 4588 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-17 10:09:21,668 4588 WARNING ? odoo.schema: Missing not-null constraint on library.book.name 
+2026-10-17 10:09:21,668 4588 WARNING ? odoo.schema: Missing not-null constraint on library.book.author 
+2026-10-17 10:09:21,668 4588 WARNING ? odoo.schema: Missing not-null constraint on library.copy.name 
+2026-10-17 10:09:21,668 4588 WARNING ? odoo.schema: Missing not-null constraint on library.copy.book_id 
+2026-10-17 10:09:21,669 4588 WARNING ? odoo.schema: Missing not-null constraint on library.copy.state 
+2026-10-17 10:09:21,669 4588 WARNING ? odoo.schema: Missing not-null constraint on library.loan.copy_id 
+2026-10-17 10:09:21,669 4588 WARNING ? odoo.schema: Missing not-null constraint on library.loan.member_id 
+2026-10-17 10:09:21,669 4588 WARNING ? odoo.schema: Missing not-null constraint on library.loan.loan_date 
+2026-10-17 10:09:21,669 4588 WARNING ? odoo.schema: Missing not-null constraint on library.loan.due_date 
+2026-10-17 10:09:21,669 4588 WARNING ? odoo.schema: Missing not-null constraint on library.loan.state 
+2026-10-17 10:09:21,669 4588 WARNING ? odoo.schema: Missing not-null constraint on library.member.name 
+2026-10-17 10:09:21,669 4588 WARNING ? odoo.schema: Missing not-null constraint on library.member.card_number 
+2026-10-17 10:09:21,674 4588 INFO ? odoo.registry: Registry loaded in 0.189s 
+2026-10-17 10:09:21,675 4588 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-17 10:09:21,897 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:21] "GET /odoo/apps/714/ir.module.module/714 HTTP/1.1" 200 - 85 0.025 0.388
+2026-10-17 10:09:21,950 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:21] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.008 0.004
+2026-10-17 10:09:21,956 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:21] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.001 0.003
+2026-10-17 10:09:22,447 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:22] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 31 0.010 0.130
+2026-10-17 10:09:22,475 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:22] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.021 0.125
+2026-10-17 10:09:22,491 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:22] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.038 0.128
+2026-10-17 10:09:22,520 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:22] "POST /web/dataset/call_kw/ir.module.module/web_read#ir.module.module.web_read HTTP/1.1" 200 - 12 0.074 0.122
+2026-10-17 10:09:22,591 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:22] "GET /web/image/ir.module.module/714/icon_image?unique=1792231645000 HTTP/1.1" 200 - 3 0.025 0.008
+2026-10-17 10:09:22,744 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:22] "GET /web/webclient/translations?hash=95d6078399e4d88682872284bc720158e8fab15e&lang=uk_UA HTTP/1.1" 200 - 2 0.002 0.434
+2026-10-17 10:09:22,795 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:22] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.003
+2026-10-17 10:09:22,874 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:22] "POST /web/dataset/call_kw/base.module.update/onchange#base.module.update.onchange HTTP/1.1" 200 - 2 0.001 0.003
+2026-10-17 10:09:22,878 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:22] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.005
+2026-10-17 10:09:22,882 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:22] "POST /web/dataset/call_kw/base.module.update/get_views#base.module.update.get_views HTTP/1.1" 200 - 11 0.005 0.007
+2026-10-17 10:09:23,106 4588 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-17 10:09:23,753 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:23] "POST /web/dataset/call_kw/base.module.update/web_save#base.module.update.web_save HTTP/1.1" 200 - 5 0.004 0.000
+2026-10-17 10:09:23,953 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:09:24,414 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:24] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-17 10:09:24,422 4588 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:09:24,669 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:24] "POST /web/dataset/call_button/base.module.update/update_module#base.module.update.update_module HTTP/1.1" 200 - 1695 0.234 0.485
+2026-10-17 10:09:25,894 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:09:25,895 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:09:25,895 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:09:26,275 4588 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:09:26,451 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:09:26,661 4588 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:09:26,664 4588 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:09:26,677 4588 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-17 10:09:26,678 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-17 10:09:27,032 4588 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:09:27,203 4588 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-17 10:09:27,203 4588 INFO odoo odoo.modules.loading: Loading module library_rental (2/15) 
+2026-10-17 10:09:27,205 4588 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:09:27,205 4588 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:09:27,206 4588 INFO odoo odoo.registry: module library_rental: creating or updating database tables 
+2026-10-17 10:09:27,257 4588 INFO odoo odoo.modules.loading: loading library_rental/security/ir.model.access.csv 
+2026-10-17 10:09:27,263 4588 INFO odoo odoo.modules.loading: loading library_rental/data/ir_cron.xml 
+2026-10-17 10:09:27,269 4588 INFO odoo odoo.modules.loading: loading library_rental/views/library_book_views.xml 
+2026-10-17 10:09:27,281 4588 WARNING odoo odoo.tools.view_validation: <string>:6:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element field, got nothing 
+2026-10-17 10:09:27,281 4588 WARNING odoo odoo.tools.view_validation: <string>:6:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute string for element group 
+2026-10-17 10:09:27,281 4588 WARNING odoo odoo.tools.view_validation: <string>:2:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element search has extra content: field 
+2026-10-17 10:09:27,281 4588 WARNING odoo odoo.tools.view_validation: Invalid XML:  Get RNG validator and validate RNG file. 
+2026-10-17 10:09:27,286 4588 WARNING odoo odoo.modules.loading: Transient module states were reset 
+2026-10-17 10:09:27,287 4588 ERROR odoo odoo.registry: Failed to load registry 
+2026-10-17 10:09:27,289 4588 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:09:27,291 4588 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:09:27,291 4588 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-17 10:09:27,291 4588 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:09:27,291 4588 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:09:27,294 4588 INFO odoo odoo.modules.loading: 15 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:09:27,311 4588 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-17 10:09:27,313 4588 WARNING odoo odoo.schema: Missing not-null constraint on library.book.name 
+2026-10-17 10:09:27,314 4588 WARNING odoo odoo.schema: Missing not-null constraint on library.book.author 
+2026-10-17 10:09:27,314 4588 WARNING odoo odoo.schema: Missing not-null constraint on library.copy.name 
+2026-10-17 10:09:27,314 4588 WARNING odoo odoo.schema: Missing not-null constraint on library.copy.book_id 
+2026-10-17 10:09:27,314 4588 WARNING odoo odoo.schema: Missing not-null constraint on library.copy.state 
+2026-10-17 10:09:27,314 4588 WARNING odoo odoo.schema: Missing not-null constraint on library.loan.copy_id 
+2026-10-17 10:09:27,314 4588 WARNING odoo odoo.schema: Missing not-null constraint on library.loan.member_id 
+2026-10-17 10:09:27,314 4588 WARNING odoo odoo.schema: Missing not-null constraint on library.loan.loan_date 
+2026-10-17 10:09:27,314 4588 WARNING odoo odoo.schema: Missing not-null constraint on library.loan.due_date 
+2026-10-17 10:09:27,314 4588 WARNING odoo odoo.schema: Missing not-null constraint on library.loan.state 
+2026-10-17 10:09:27,314 4588 WARNING odoo odoo.schema: Missing not-null constraint on library.member.name 
+2026-10-17 10:09:27,314 4588 WARNING odoo odoo.schema: Missing not-null constraint on library.member.card_number 
+2026-10-17 10:09:27,314 4588 INFO odoo odoo.registry: Registry loaded in 0.027s 
+2026-10-17 10:09:27,317 4588 ERROR odoo odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2852, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2331, in _serve_db
+    raise self._update_served_exception(exc)
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2329, in _serve_db
+    return service_model.retrying(serve_func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\service\model.py", line 188, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2379, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2594, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_http.py", line 353, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 838, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\web\controllers\dataset.py", line 38, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\service\model.py", line 97, in call_kw
+    result = method(recs, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 73, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 702, in button_immediate_upgrade
+    return self._button_immediate_function(self.env.registry[self._name].button_upgrade)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 639, in _button_immediate_function
+    registry = modules.registry.Registry.new(self.env.cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\tools\func.py", line 88, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\orm\registry.py", line 189, in new
+    load_modules(
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 464, in load_modules
+    load_module_graph(
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 224, in load_module_graph
+    load_data(env, idref, mode, kind='data', package=package)
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 59, in load_data
+    convert_file(env, package.name, filename, idref, mode, noupdate=kind == 'demo')
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 696, in convert_file
+    convert_xml_import(env, module, fp, idref, mode, noupdate)
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 795, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 666, in parse
+    self._tag_root(de)
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 619, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+odoo.tools.convert.ParseError: while parsing file:/c:/program%20files/odoo%2019/server/odoo/custom_addons/library_rental/views/library_book_views.xml:42
+Недійсний перегляд library.book.search визначення в library_rental/views/library_book_views.xml
+
+View error context:
+'-no context-'
+
+2026-10-17 10:09:27,318 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:27] "POST /web/dataset/call_button/ir.module.module/button_immediate_upgrade#ir.module.module.button_immediate_upgrade HTTP/1.1" 200 - 3578 0.496 0.930
+2026-10-17 10:09:29,860 4588 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-17 10:09:29,878 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:29] "POST /web/action/load HTTP/1.1" 200 - 16 0.003 0.017
+2026-10-17 10:09:30,204 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:30] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2026-10-17 10:09:30,209 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.005 0.005
+2026-10-17 10:09:30,223 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:30] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 55 0.017 0.021
+2026-10-17 10:09:30,403 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:30] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-17 10:09:30,746 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:30] "POST /web/dataset/call_kw/base.module.update/onchange#base.module.update.onchange HTTP/1.1" 200 - 2 0.002 0.001
+2026-10-17 10:09:31,756 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:31] "POST /web/dataset/call_kw/base.module.update/web_save#base.module.update.web_save HTTP/1.1" 200 - 5 0.001 0.003
+2026-10-17 10:09:31,959 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:09:32,339 4588 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:09:32,519 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:32] "POST /web/dataset/call_button/base.module.update/update_module#base.module.update.update_module HTTP/1.1" 200 - 1696 0.244 0.318
+2026-10-17 10:09:34,174 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_uninstall_wizard on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:09:34,174 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:34] "POST /web/dataset/call_button/ir.module.module/button_uninstall_wizard#ir.module.module.button_uninstall_wizard HTTP/1.1" 200 - 3 0.002 0.001
+2026-10-17 10:09:34,495 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:34] "POST /web/dataset/call_kw/base.module.uninstall/get_views#base.module.uninstall.get_views HTTP/1.1" 200 - 16 0.002 0.009
+2026-10-17 10:09:34,705 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:34] "POST /web/dataset/call_kw/base.module.uninstall/onchange#base.module.uninstall.onchange HTTP/1.1" 200 - 8 0.001 0.004
+2026-10-17 10:09:35,949 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:35] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.004 0.003
+2026-10-17 10:09:38,086 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_uninstall_wizard on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:09:38,087 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:38] "POST /web/dataset/call_button/ir.module.module/button_uninstall_wizard#ir.module.module.button_uninstall_wizard HTTP/1.1" 200 - 3 0.001 0.003
+2026-10-17 10:09:38,308 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:38] "POST /web/dataset/call_kw/base.module.uninstall/onchange#base.module.uninstall.onchange HTTP/1.1" 200 - 6 0.001 0.005
+2026-10-17 10:09:39,126 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:39] "POST /web/dataset/call_kw/base.module.uninstall/web_save#base.module.uninstall.web_save HTTP/1.1" 200 - 11 0.004 0.006
+2026-10-17 10:09:39,437 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_uninstall on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:09:39,437 4588 INFO odoo odoo.addons.base.models.ir_module: User #2 triggered module uninstallation 
+2026-10-17 10:09:39,437 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_uninstall on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:09:39,443 4588 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:09:39,446 4588 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:09:39,461 4588 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-17 10:09:39,462 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-17 10:09:39,876 4588 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:09:40,058 4588 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-17 10:09:40,058 4588 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:09:40,058 4588 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:09:40,062 4588 INFO odoo odoo.modules.loading: 15 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:09:40,100 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.module_uninstall on ['Library Rental'] to user __system__ #1 via n/a 
+2026-10-17 10:09:40,103 4588 INFO odoo odoo.addons.base.models.ir_model: ir.model.data could not be deleted ([]) 
+2026-10-17 10:09:40,106 4588 INFO odoo odoo.modules.loading: Reloading registry once more after uninstalling modules 
+2026-10-17 10:09:40,112 4588 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:09:40,114 4588 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:09:40,129 4588 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-17 10:09:40,130 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-17 10:09:40,488 4588 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:09:40,656 4588 INFO odoo odoo.modules.loading: loading 14 modules... 
+2026-10-17 10:09:40,660 4588 INFO odoo odoo.modules.loading: 14 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:09:40,782 4588 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-17 10:09:40,786 4588 INFO odoo odoo.registry: Registry changed, signaling through the database 
+2026-10-17 10:09:40,787 4588 INFO odoo odoo.registry: Registry loaded in 0.681s 
+2026-10-17 10:09:40,787 4588 INFO odoo odoo.registry: Registry changed, signaling through the database 
+2026-10-17 10:09:40,788 4588 INFO odoo odoo.registry: Registry loaded in 1.349s 
+2026-10-17 10:09:40,788 4588 INFO odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-10-17 10:09:40,793 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:40] "POST /web/dataset/call_button/base.module.uninstall/action_uninstall#base.module.uninstall.action_uninstall HTTP/1.1" 200 - 3757 0.529 0.831
+2026-10-17 10:09:40,801 4588 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-17 10:09:41,023 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:41] "GET /odoo HTTP/1.1" 200 - 59 0.008 0.215
+2026-10-17 10:09:41,110 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:41] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.001 0.007
+2026-10-17 10:09:41,415 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:41] "GET /web/webclient/translations?hash=&lang=uk_UA HTTP/1.1" 200 - 2 0.000 0.019
+2026-10-17 10:09:41,431 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:41] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.001 0.003
+2026-10-17 10:09:41,732 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:41] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.005
+2026-10-17 10:09:41,747 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:41] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.002 0.003
+2026-10-17 10:09:41,752 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:41] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.003 0.008
+2026-10-17 10:09:42,057 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:42] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.001
+2026-10-17 10:09:42,076 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:42] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 45 0.009 0.021
+2026-10-17 10:09:42,388 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-17 10:09:42,395 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:42] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.004
+2026-10-17 10:09:42,404 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.008 0.010
+2026-10-17 10:09:42,410 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:42] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.003 0.020
+2026-10-17 10:09:42,596 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:42] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-17 10:09:42,983 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:42] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-17 10:09:44,587 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:44] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.004 0.011
+2026-10-17 10:09:44,593 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:44] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.001 0.020
+2026-10-17 10:09:44,779 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:44] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-17 10:09:46,392 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.011 0.007
+2026-10-17 10:09:46,706 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:46] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.004 0.002
+2026-10-17 10:09:46,908 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:46] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-17 10:09:47,807 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:09:47,807 4588 INFO odoo odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2026-10-17 10:09:47,808 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:09:47,838 4588 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:09:47,841 4588 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:09:47,855 4588 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-17 10:09:47,856 4588 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-17 10:09:48,219 4588 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:09:48,391 4588 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-17 10:09:48,395 4588 INFO odoo odoo.modules.loading: Loading module library_rental (15/15) 
+2026-10-17 10:09:48,395 4588 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:09:48,395 4588 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:09:48,416 4588 INFO odoo odoo.registry: module library_rental: creating or updating database tables 
+2026-10-17 10:09:48,465 4588 INFO odoo odoo.modules.loading: loading library_rental/security/ir.model.access.csv 
+2026-10-17 10:09:48,470 4588 INFO odoo odoo.modules.loading: loading library_rental/data/ir_cron.xml 
+2026-10-17 10:09:48,475 4588 INFO odoo odoo.modules.loading: loading library_rental/views/library_book_views.xml 
+2026-10-17 10:09:48,486 4588 WARNING odoo odoo.tools.view_validation: <string>:6:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element field, got nothing 
+2026-10-17 10:09:48,486 4588 WARNING odoo odoo.tools.view_validation: <string>:6:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute string for element group 
+2026-10-17 10:09:48,486 4588 WARNING odoo odoo.tools.view_validation: <string>:2:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element search has extra content: field 
+2026-10-17 10:09:48,486 4588 WARNING odoo odoo.tools.view_validation: Invalid XML:  Get RNG validator and validate RNG file. 
+2026-10-17 10:09:48,491 4588 WARNING odoo odoo.modules.loading: Transient module states were reset 
+2026-10-17 10:09:48,491 4588 ERROR odoo odoo.registry: Failed to load registry 
+2026-10-17 10:09:48,494 4588 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:09:48,496 4588 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:09:48,497 4588 INFO odoo odoo.modules.loading: loading 14 modules... 
+2026-10-17 10:09:48,499 4588 INFO odoo odoo.modules.loading: 14 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:09:48,516 4588 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-17 10:09:48,519 4588 INFO odoo odoo.registry: Registry loaded in 0.028s 
+2026-10-17 10:09:48,520 4588 ERROR odoo odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2852, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2331, in _serve_db
+    raise self._update_served_exception(exc)
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2329, in _serve_db
+    return service_model.retrying(serve_func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\service\model.py", line 188, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2379, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2594, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_http.py", line 353, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 838, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\web\controllers\dataset.py", line 38, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\service\model.py", line 97, in call_kw
+    result = method(recs, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 73, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 494, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 639, in _button_immediate_function
+    registry = modules.registry.Registry.new(self.env.cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\tools\func.py", line 88, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\orm\registry.py", line 189, in new
+    load_modules(
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 464, in load_modules
+    load_module_graph(
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 217, in load_module_graph
+    load_data(env, idref, 'init', kind='data', package=package)
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 59, in load_data
+    convert_file(env, package.name, filename, idref, mode, noupdate=kind == 'demo')
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 696, in convert_file
+    convert_xml_import(env, module, fp, idref, mode, noupdate)
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 795, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 666, in parse
+    self._tag_root(de)
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 619, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+odoo.tools.convert.ParseError: while parsing file:/c:/program%20files/odoo%2019/server/odoo/custom_addons/library_rental/views/library_book_views.xml:42
+Недійсний перегляд library.book.search визначення в library_rental/views/library_book_views.xml
+
+View error context:
+'-no context-'
+
+2026-10-17 10:09:48,521 4588 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:09:48] "POST /web/dataset/call_button/ir.module.module/button_immediate_install#ir.module.module.button_immediate_install HTTP/1.1" 200 - 1896 0.284 0.432
+2026-10-17 10:10:55,494 19128 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:10:55,494 19128 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:10:55,494 19128 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:10:55,494 19128 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 10:10:55,775 19128 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:10:55,778 19128 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:10:55,793 19128 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-17 10:10:55,794 19128 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-17 10:10:56,218 19128 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:10:56,218 19128 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:10:56,501 19128 INFO odoo odoo.modules.loading: loading 14 modules... 
+2026-10-17 10:10:56,923 19128 INFO odoo odoo.modules.loading: 14 modules loaded in 0.42s, 0 queries (+0 extra) 
+2026-10-17 10:10:57,056 19128 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-17 10:10:57,061 19128 INFO odoo odoo.registry: Registry changed, signaling through the database 
+2026-10-17 10:10:57,061 19128 INFO odoo odoo.registry: Registry loaded in 1.322s 
+2026-10-17 10:10:57,061 19128 INFO odoo odoo.service.server: Initiating shutdown 
+2026-10-17 10:10:57,061 19128 INFO odoo odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-17 10:10:57,061 19128 INFO odoo odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2026-10-17 10:11:11,757 3672 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:11:11,757 3672 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:11:11,757 3672 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:11:11,757 3672 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 10:11:12,029 3672 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:11:12,031 3672 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:11:12,047 3672 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-17 10:11:12,048 3672 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-17 10:11:12,477 3672 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:11:12,478 3672 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:11:12,759 3672 INFO odoo odoo.modules.loading: loading 14 modules... 
+2026-10-17 10:11:12,877 3672 INFO odoo odoo.modules.loading: 14 modules loaded in 0.12s, 0 queries (+0 extra) 
+2026-10-17 10:11:13,008 3672 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-17 10:11:13,013 3672 INFO odoo odoo.registry: Registry changed, signaling through the database 
+2026-10-17 10:11:13,013 3672 INFO odoo odoo.registry: Registry loaded in 1.019s 
+2026-10-17 10:11:13,013 3672 INFO odoo odoo.service.server: Initiating shutdown 
+2026-10-17 10:11:13,013 3672 INFO odoo odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-17 10:11:13,013 3672 INFO odoo odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2026-10-17 10:11:37,581 4588 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 19\server\odoo\addons\bus\models\bus.py", line 264, in run
+    self.loop()
+  File "C:\Program Files\Odoo 19\server\odoo\addons\bus\models\bus.py", line 249, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2026-10-17 10:11:37,582 4588 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-10-17 10:11:37,591 4588 INFO ? odoo.service.server: cron1 max age (0s) reached, releasing connection. 
+2026-10-17 10:11:37,724 4588 INFO ? odoo.sql_db: Connection to the database failed 
+2026-10-17 10:11:42,515 4588 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-17 10:11:42,515 4588 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-17 10:11:42,697 4588 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 6 connections  
+2026-10-17 10:11:44,135 7160 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:11:44,135 7160 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:11:44,135 7160 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:11:44,135 7160 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 10:11:45,196 7160 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-17 10:11:53,556 18388 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:11:53,556 18388 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:11:53,557 18388 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:11:53,558 18388 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 10:11:54,996 18388 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-17 10:12:03,699 7160 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:12:03,702 7160 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:12:03,705 7160 INFO ? odoo.modules.loading: loading 14 modules... 
+2026-10-17 10:12:03,826 7160 INFO ? odoo.modules.loading: 14 modules loaded in 0.12s, 0 queries (+0 extra) 
+2026-10-17 10:12:03,846 7160 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-17 10:12:03,854 7160 INFO ? odoo.registry: Registry loaded in 0.186s 
+2026-10-17 10:12:03,855 7160 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-17 10:12:04,078 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:04] "GET /odoo/apps HTTP/1.1" 200 - 85 0.028 0.383
+2026-10-17 10:12:04,141 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:04] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.003 0.009
+2026-10-17 10:12:04,161 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:04] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.001 0.003
+2026-10-17 10:12:04,841 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:04] "GET /web/webclient/translations?hash=&lang=uk_UA HTTP/1.1" 200 - 2 0.000 0.344
+2026-10-17 10:12:04,852 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:04] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.001 0.003
+2026-10-17 10:12:05,213 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:05] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.007 0.033
+2026-10-17 10:12:05,213 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:05] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 45 0.017 0.024
+2026-10-17 10:12:05,216 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:05] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.042
+2026-10-17 10:12:05,366 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-17 10:12:05,555 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:05] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.020
+2026-10-17 10:12:05,555 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.013 0.010
+2026-10-17 10:12:05,559 7160 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-17 10:12:05,560 7160 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:12:05,584 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:05] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.003 0.048
+2026-10-17 10:12:05,605 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:05] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-17 10:12:06,154 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:06] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-17 10:12:06,907 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:06] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.004 0.008
+2026-10-17 10:12:07,215 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:07] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.003 0.014
+2026-10-17 10:12:07,538 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:07] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-17 10:12:09,943 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.009 0.010
+2026-10-17 10:12:10,260 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:10] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.004 0.004
+2026-10-17 10:12:10,455 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:10] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.000
+2026-10-17 10:12:11,430 7160 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:12:11,430 7160 INFO odoo odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2026-10-17 10:12:11,431 7160 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-17 10:12:11,662 7160 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:12:11,664 7160 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:12:11,679 7160 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-17 10:12:11,680 7160 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-17 10:12:12,102 7160 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:12:12,328 7160 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-17 10:12:12,332 7160 INFO odoo odoo.modules.loading: Loading module library_rental (15/15) 
+2026-10-17 10:12:12,336 7160 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:12:12,336 7160 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-17 10:12:12,357 7160 INFO odoo odoo.registry: module library_rental: creating or updating database tables 
+2026-10-17 10:12:12,418 7160 INFO odoo odoo.modules.loading: loading library_rental/security/ir.model.access.csv 
+2026-10-17 10:12:12,424 7160 INFO odoo odoo.modules.loading: loading library_rental/data/ir_cron.xml 
+2026-10-17 10:12:12,430 7160 INFO odoo odoo.modules.loading: loading library_rental/views/library_book_views.xml 
+2026-10-17 10:12:12,446 7160 INFO odoo odoo.modules.loading: loading library_rental/views/library_copy_views.xml 
+2026-10-17 10:12:12,454 7160 WARNING odoo odoo.tools.view_validation: <string>:8:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element field, got nothing 
+2026-10-17 10:12:12,454 7160 WARNING odoo odoo.tools.view_validation: <string>:8:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute string for element group 
+2026-10-17 10:12:12,454 7160 WARNING odoo odoo.tools.view_validation: <string>:2:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element search has extra content: field 
+2026-10-17 10:12:12,454 7160 WARNING odoo odoo.tools.view_validation: Invalid XML:  Get RNG validator and validate RNG file. 
+2026-10-17 10:12:12,459 7160 WARNING odoo odoo.modules.loading: Transient module states were reset 
+2026-10-17 10:12:12,460 7160 ERROR odoo odoo.registry: Failed to load registry 
+2026-10-17 10:12:12,463 7160 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:12:12,465 7160 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:12:12,465 7160 INFO odoo odoo.modules.loading: loading 14 modules... 
+2026-10-17 10:12:12,468 7160 INFO odoo odoo.modules.loading: 14 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:12:12,486 7160 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-17 10:12:12,489 7160 INFO odoo odoo.registry: Registry loaded in 0.029s 
+2026-10-17 10:12:12,491 7160 ERROR odoo odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2852, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2331, in _serve_db
+    raise self._update_served_exception(exc)
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2329, in _serve_db
+    return service_model.retrying(serve_func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\service\model.py", line 188, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2379, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 2594, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_http.py", line 353, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\http.py", line 838, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\web\controllers\dataset.py", line 38, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\service\model.py", line 97, in call_kw
+    result = method(recs, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 73, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 494, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\addons\base\models\ir_module.py", line 639, in _button_immediate_function
+    registry = modules.registry.Registry.new(self.env.cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\tools\func.py", line 88, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Odoo 19\server\odoo\orm\registry.py", line 189, in new
+    load_modules(
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 464, in load_modules
+    load_module_graph(
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 217, in load_module_graph
+    load_data(env, idref, 'init', kind='data', package=package)
+  File "C:\Program Files\Odoo 19\server\odoo\modules\loading.py", line 59, in load_data
+    convert_file(env, package.name, filename, idref, mode, noupdate=kind == 'demo')
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 696, in convert_file
+    convert_xml_import(env, module, fp, idref, mode, noupdate)
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 795, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 666, in parse
+    self._tag_root(de)
+  File "C:\Program Files\Odoo 19\server\odoo\tools\convert.py", line 619, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+odoo.tools.convert.ParseError: while parsing file:/c:/program%20files/odoo%2019/server/odoo/custom_addons/library_rental/views/library_copy_views.xml:42
+Недійсний перегляд library.copy.search визначення в library_rental/views/library_copy_views.xml
+
+View error context:
+'-no context-'
+
+2026-10-17 10:12:12,493 7160 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:12:12] "POST /web/dataset/call_button/ir.module.module/button_immediate_install#ir.module.module.button_immediate_install HTTP/1.1" 200 - 1915 0.290 0.776
+2026-10-17 10:12:40,600 18112 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:12:40,600 18112 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:12:40,600 18112 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:12:40,600 18112 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 10:12:40,973 18112 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:12:40,976 18112 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:12:40,991 18112 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-17 10:12:40,992 18112 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-17 10:12:41,426 18112 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:12:41,426 18112 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-17 10:12:41,714 18112 INFO odoo odoo.modules.loading: loading 14 modules... 
+2026-10-17 10:12:41,824 18112 INFO odoo odoo.modules.loading: 14 modules loaded in 0.11s, 0 queries (+0 extra) 
+2026-10-17 10:12:41,954 18112 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-17 10:12:41,958 18112 INFO odoo odoo.registry: Registry changed, signaling through the database 
+2026-10-17 10:12:41,959 18112 INFO odoo odoo.registry: Registry loaded in 1.016s 
+2026-10-17 10:12:41,959 18112 INFO odoo odoo.service.server: Initiating shutdown 
+2026-10-17 10:12:41,959 18112 INFO odoo odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-17 10:12:41,959 18112 INFO odoo odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2026-10-17 10:13:11,745 7160 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-17 10:13:11,746 7160 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-17 10:13:11,805 7160 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 7 connections  
+2026-10-17 10:13:11,805 7160 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-10-17 10:13:25,901 4764 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:13:25,901 4764 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:13:25,901 4764 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:13:25,901 4764 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-17 10:13:26,972 4764 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-17 10:13:35,475 4764 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-17 10:13:35,477 4764 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-17 10:13:35,480 4764 INFO ? odoo.modules.loading: loading 14 modules... 
+2026-10-17 10:13:35,597 4764 INFO ? odoo.modules.loading: 14 modules loaded in 0.12s, 0 queries (+0 extra) 
+2026-10-17 10:13:35,616 4764 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-17 10:13:35,625 4764 INFO ? odoo.registry: Registry loaded in 0.179s 
+2026-10-17 10:13:35,625 4764 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-17 10:13:35,634 4764 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:13:35] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 23 0.013 0.176
+2026-10-17 10:13:35,944 4764 INFO odoo werkzeug: 127.0.0.1 - - [17/Oct/2026 10:13:35] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-17 10:13:35,953 4764 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-17 10:13:41,086 19592 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-17 10:13:41,086 19592 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-17 10:13:41,086 19592 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-17 10:13:41,086 19592 INFO ? odoo: database: odoo@localhost:5432 

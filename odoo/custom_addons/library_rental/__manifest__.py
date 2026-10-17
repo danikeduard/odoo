@@ -6,7 +6,15 @@
     'depends': [
         'base',
     ],
-    'data': [],
+    'data': [
+        'security/ir.model.access.csv',
+        'data/ir_cron.xml',
+        'views/library_book_views.xml',
+        'views/library_copy_views.xml',
+        'views/library_member_views.xml',
+        'views/library_loan_views.xml',
+        'views/library_menus.xml',
+    ],
     'installable': True,
     'application': True,
     'license': 'LGPL-3',

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_library_root" name="Бібліотека" sequence="10"/>
+    <menuitem id="menu_library_books" name="Книги" parent="menu_library_root" action="action_library_book" sequence="10"/>
+    <menuitem id="menu_library_copies" name="Примірники" parent="menu_library_root" action="action_library_copy" sequence="20"/>
+    <menuitem id="menu_library_members" name="Читачі" parent="menu_library_root" action="action_library_member" sequence="30"/>
+    <menuitem id="menu_library_loans" name="Видачі" parent="menu_library_root" action="action_library_loan" sequence="40"/>
+</odoo>

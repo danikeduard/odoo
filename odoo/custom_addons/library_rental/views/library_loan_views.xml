@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_library_loan_list" model="ir.ui.view">
+        <field name="name">library.loan.list</field>
+        <field name="model">library.loan</field>
+        <field name="arch" type="xml">
+            <list decoration-danger="state == 'overdue'" decoration-success="state == 'returned'">
+                <field name="copy_id"/>
+                <field name="member_id"/>
+                <field name="loan_date"/>
+                <field name="due_date"/>
+                <field name="return_date"/>
+                <field name="state"/>
+            </list>
+        </field>
+    </record>
+    <record id="view_library_loan_form" model="ir.ui.view">
+        <field name="name">library.loan.form</field>
+        <field name="model">library.loan</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_return" type="object" string="Повернути" class="btn-primary" invisible="state == 'returned'"/>
+                    <field name="state" widget="statusbar" statusbar_visible="active,overdue,returned"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="copy_id" readonly="state != 'active' and state != 'overdue'"/>
+                        <field name="member_id"/>
+                        <field name="loan_date"/>
+                        <field name="due_date"/>
+                        <field name="return_date" readonly="state == 'returned'"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="view_library_loan_search" model="ir.ui.view">
+        <field name="name">library.loan.search</field>
+        <field name="model">library.loan</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="copy_id"/>
+                <field name="member_id"/>
+                <field name="loan_date"/>
+                <field name="due_date"/>
+                <filter name="active" string="Активні" domain="[('state', '=', 'active')]"/>
+                <filter name="overdue" string="Прострочені" domain="[('state', '=', 'overdue')]"/>
+                <filter name="returned" string="Повернені" domain="[('state', '=', 'returned')]"/>
+                <group name="group_by">
+                    <filter name="group_member" string="Читачем" domain="[]" context="{'group_by': 'member_id'}"/>
+                    <filter name="group_state" string="Станом" domain="[]" context="{'group_by': 'state'}"/>
+                    <filter name="group_loan_date" string="Датою видачі" domain="[]" context="{'group_by': 'loan_date'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+    <record id="action_library_loan" model="ir.actions.act_window">
+        <field name="name">Видачі</field>
+        <field name="res_model">library.loan</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_library_loan_search"/>
+    </record>
+</odoo>
