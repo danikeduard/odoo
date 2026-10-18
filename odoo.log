@@ -1703,3 +1703,876 @@ View error context:
 2026-10-17 10:13:41,086 19592 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
 2026-10-17 10:13:41,086 19592 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
 2026-10-17 10:13:41,086 19592 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-18 19:02:50,980 16060 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-18 19:02:50,980 16060 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-18 19:02:50,980 16060 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-18 19:02:50,980 16060 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-18 19:02:52,409 16060 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-18 19:02:58,554 16060 INFO ? odoo.service.server: cron1 max age (0s) reached, releasing connection. 
+2026-10-18 19:02:58,574 16060 INFO ? odoo.sql_db: Connection to the database failed 
+2026-10-18 19:03:10,078 22664 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-18 19:03:10,078 22664 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-18 19:03:10,079 22664 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-18 19:03:10,079 22664 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-18 19:03:11,798 22664 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-18 19:04:12,112 22664 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-18 19:04:12,118 22664 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-10-18 19:04:12,124 22664 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:04:12,127 22664 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-18 19:04:12,137 22664 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:04:12,137 22664 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:04:12,609 22664 INFO odoo odoo.modules.loading: 15 modules loaded in 0.48s, 0 queries (+0 extra) 
+2026-10-18 19:04:12,676 22664 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-18 19:04:12,696 22664 INFO odoo odoo.registry: Registry loaded in 0.635s 
+2026-10-18 19:04:12,698 22664 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2026-10-18 19:04:12,826 22664 INFO odoo odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-10-18 19:04:12,828 22664 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-10-18 19:04:12,843 22664 INFO odoo odoo.models.unlink: User #1 deleted base.module.update records with IDs: [6, 7, 8, 9, 10] 
+2026-10-18 19:04:12,868 22664 INFO odoo odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-10-18 19:04:12,896 22664 INFO odoo odoo.models.unlink: User #1 deleted base.module.uninstall records with IDs: [1] 
+2026-10-18 19:04:12,900 22664 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-10-18 19:04:12,907 22664 INFO odoo odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2026-10-18 19:04:12,910 22664 INFO odoo odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-10-18 19:04:12,935 22664 INFO odoo odoo.addons.base.models.ir_cron: Job 'Бібліотека: оновлення прострочених видач' (8) starting 
+2026-10-18 19:04:12,946 22664 INFO odoo odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2026-10-18 19:04:12,972 22664 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 0; remaining 0; duration 0.28s) 
+2026-10-18 19:04:13,084 22664 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
+2026-10-18 19:04:13,087 22664 INFO odoo odoo.addons.base.models.ir_cron: Job 'Бібліотека: оновлення прострочених видач' (8) fully done (#loop 1; done 0; remaining 0; duration 0.16s) 
+2026-10-18 19:04:13,098 22664 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-10-18 19:04:40,525 16060 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-18 19:04:40,527 16060 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-18 19:04:40,529 16060 WARNING ? odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:04:40,530 16060 INFO ? odoo.modules.loading: loading 15 modules... 
+2026-10-18 19:04:40,534 16060 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:04:40,534 16060 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:04:40,771 16060 INFO ? odoo.modules.loading: 15 modules loaded in 0.24s, 0 queries (+0 extra) 
+2026-10-18 19:04:40,794 16060 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-18 19:04:40,804 16060 INFO ? odoo.registry: Registry loaded in 0.311s 
+2026-10-18 19:04:40,805 16060 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-18 19:04:40,816 16060 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (tkAu481b2yLquQRNc4jUI3Hn40BGnpI6roosSgrc47) 
+2026-10-18 19:04:40,828 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:40] "GET / HTTP/1.1" 303 - 33 0.018 0.318
+2026-10-18 19:04:41,104 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:41] "GET /odoo HTTP/1.1" 200 - 55 0.032 0.237
+2026-10-18 19:04:41,123 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:41] "GET /web/assets/83a8858/web.assets_web.min.js HTTP/1.1" 200 - 3 0.002 0.003
+2026-10-18 19:04:41,426 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:41] "GET /web/assets/b6169ff/web.assets_web.min.css HTTP/1.1" 200 - 3 0.002 0.002
+2026-10-18 19:04:41,428 16060 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:41] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:04:41,487 16060 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:41] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:04:41,508 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:41] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.013 0.007
+2026-10-18 19:04:41,563 16060 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:41] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:04:41,732 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:41] "POST /web/action/load HTTP/1.1" 200 - 10 0.092 0.063
+2026-10-18 19:04:41,946 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:41] "POST /web/dataset/call_kw/library.book/get_views#library.book.get_views HTTP/1.1" 200 - 30 0.042 0.133
+2026-10-18 19:04:41,954 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:41] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 5 0.019 0.103
+2026-10-18 19:04:41,962 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:41] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.010 0.119
+2026-10-18 19:04:41,971 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:41] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 15 0.016 0.008
+2026-10-18 19:04:42,026 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:42] "GET /web/webclient/translations?hash=95d6078399e4d88682872284bc720158e8fab15e&lang=uk_UA HTTP/1.1" 200 - 2 0.001 0.449
+2026-10-18 19:04:42,044 16060 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:42] "GET /web/static/img/odoo-icon-192x192.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:04:42,265 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:42] "GET /web/assets/505e8d3/web.assets_web_print.min.css HTTP/1.1" 200 - 3 0.002 0.003
+2026-10-18 19:04:42,267 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:42] "GET /web/image/res.partner/3/avatar_128?unique=1792181190000 HTTP/1.1" 200 - 7 0.003 0.005
+2026-10-18 19:04:42,272 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:42] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 200 - 4 0.001 0.004
+2026-10-18 19:04:42,601 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:42] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.003
+2026-10-18 19:04:42,905 16060 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-18 19:04:43,945 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:43] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:04:45,242 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:45] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 3 0.002 0.002
+2026-10-18 19:04:47,576 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:47] "POST /web/dataset/call_kw/library.book/web_read#library.book.web_read HTTP/1.1" 200 - 3 0.001 0.002
+2026-10-18 19:04:48,604 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:48] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 3 0.000 0.003
+2026-10-18 19:04:49,519 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:49] "POST /web/action/load HTTP/1.1" 200 - 10 0.004 0.003
+2026-10-18 19:04:49,533 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:49] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:04:49,545 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:49] "POST /web/dataset/call_kw/library.copy/get_views#library.copy.get_views HTTP/1.1" 200 - 18 0.004 0.012
+2026-10-18 19:04:49,722 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:49] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.005
+2026-10-18 19:04:49,993 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:49] "POST /web/dataset/call_kw/library.member/get_views#library.member.get_views HTTP/1.1" 200 - 16 0.006 0.007
+2026-10-18 19:04:49,997 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:49] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 3 0.003 0.003
+2026-10-18 19:04:50,000 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:50] "POST /web/action/load HTTP/1.1" 200 - 10 0.000 0.008
+2026-10-18 19:04:50,316 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:50] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 3 0.001 0.002
+2026-10-18 19:04:50,323 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:50] "POST /web/dataset/call_kw/library.loan/get_views#library.loan.get_views HTTP/1.1" 200 - 11 0.004 0.007
+2026-10-18 19:04:51,851 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:51] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:04:52,757 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:52] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:04:53,045 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:04:53] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 3 0.001 0.002
+2026-10-18 19:05:18,683 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:18] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 2 0.002 0.001
+2026-10-18 19:05:19,004 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:19] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:05:19,813 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:19] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:05:20,090 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:20] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-18 19:05:21,208 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:21] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:05:23,131 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:23] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.001 0.002
+2026-10-18 19:05:31,667 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:31] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:05:38,375 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:38] "POST /web/dataset/call_kw/library.member/web_name_search#library.member.web_name_search HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-18 19:05:46,645 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:46] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:05:47,379 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:47] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 3 0.001 0.002
+2026-10-18 19:05:49,215 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:49] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:05:57,166 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:57] "POST /web/dataset/call_kw/library.copy/onchange#library.copy.onchange HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-18 19:05:59,293 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:05:59] "POST /web/dataset/call_kw/library.book/web_name_search#library.book.web_name_search HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-18 19:06:09,699 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:09] "POST /web/dataset/call_kw/library.loan/get_views#library.loan.get_views HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-18 19:06:10,011 16060 WARNING odoo odoo.domains: Domains don't support NewId, use .ids instead, for ('copy_id', '=', <NewId 0x19f181747c0>) 
+2026-10-18 19:06:10,012 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:10] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-18 19:06:10,791 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:10] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-18 19:06:14,222 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:14] "POST /web/dataset/call_kw/library.member/web_name_search#library.member.web_name_search HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:06:24,974 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:24] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-18 19:06:35,004 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_copy" ("create_date", "create_uid", "name", "state", "write_date", "write_uid") VALUES (\'2026-10-18T19:06:35.000615\'::timestamp, 2, \'1\', \'available\', \'2026-10-18T19:06:35.000615\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "book_id" відношення "library_copy" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (1, null, 2, 2, 1, available, 2026-10-18 19:06:35.000615, 2026-10-18 19:06:35.000615).
+ 
+2026-10-18 19:06:35,203 16060 WARNING odoo odoo.http: Операцію неможливо завершити: Missing required value for the field 'Книга' (book_id).
+Model: 'Library Book Copy' (library.copy)
+- create/update: a mandatory field is not set
+- delete: another model requires the record being deleted, you can archive it instead
+ 
+2026-10-18 19:06:35,203 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:35] "POST /web/dataset/call_kw/library.copy/name_create#library.copy.name_create HTTP/1.1" 200 - 3 0.000 0.205
+2026-10-18 19:06:35,211 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:35] "POST /web/dataset/call_kw/library.copy/get_views#library.copy.get_views HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-18 19:06:35,519 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:35] "POST /web/dataset/call_kw/library.copy/onchange#library.copy.onchange HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:06:38,143 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:38] "POST /web/dataset/call_kw/library.book/web_name_search#library.book.web_name_search HTTP/1.1" 200 - 2 0.001 0.001
+2026-10-18 19:06:40,263 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:40] "POST /web/dataset/call_kw/library.copy/web_save#library.copy.web_save HTTP/1.1" 200 - 4 0.003 0.002
+2026-10-18 19:06:40,477 16060 WARNING odoo odoo.domains: Domains don't support NewId, use .ids instead, for ('copy_id', '=', <NewId 0x19f188444c0>) 
+2026-10-18 19:06:40,478 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:40] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.001 0.002
+2026-10-18 19:06:46,048 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_member" ("create_date", "create_uid", "name", "write_date", "write_uid") VALUES (\'2026-10-18T19:06:46.047562\'::timestamp, 2, \'\xd0\x86\xd0\xb2\xd0\xb0\xd0\xbd\', \'2026-10-18T19:06:46.047562\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "card_number" відношення "library_member" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (1, 2, 2, Іван, null, null, null, 2026-10-18 19:06:46.047562, 2026-10-18 19:06:46.047562).
+ 
+2026-10-18 19:06:46,050 16060 WARNING odoo odoo.http: Операцію неможливо завершити: Missing required value for the field 'Номер читацького квитка' (card_number).
+Model: 'Library Member' (library.member)
+- create/update: a mandatory field is not set
+- delete: another model requires the record being deleted, you can archive it instead
+ 
+2026-10-18 19:06:46,050 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:46] "POST /web/dataset/call_kw/library.member/name_create#library.member.name_create HTTP/1.1" 200 - 4 0.000 0.006
+2026-10-18 19:06:46,362 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:46] "POST /web/dataset/call_kw/library.member/get_views#library.member.get_views HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-18 19:06:46,561 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:46] "POST /web/dataset/call_kw/library.member/onchange#library.member.onchange HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:06:51,050 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:51] "POST /web/dataset/call_kw/library.member/web_save#library.member.web_save HTTP/1.1" 200 - 4 0.001 0.004
+2026-10-18 19:06:59,271 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (3, \'2026-10-18T19:06:59.270513\'::timestamp, 2, \'2026-09-28\'::date, 2, NULL, \'active\', \'2026-10-18T19:06:59.270513\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (1, 3, 2, 2, 2, active, 2026-09-28, null, null, 2026-10-18 19:06:59.270513, 2026-10-18 19:06:59.270513).
+ 
+2026-10-18 19:06:59,275 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:06:59,275 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:06:59] "POST /web/dataset/call_kw/library.copy/web_save#library.copy.web_save HTTP/1.1" 200 - 9 0.002 0.006
+2026-10-18 19:07:04,374 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (4, \'2026-10-18T19:07:04.373314\'::timestamp, 2, \'2026-09-28\'::date, 2, NULL, \'active\', \'2026-10-18T19:07:04.373314\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (2, 4, 2, 2, 2, active, 2026-09-28, null, null, 2026-10-18 19:07:04.373314, 2026-10-18 19:07:04.373314).
+ 
+2026-10-18 19:07:04,376 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:07:04,376 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:04] "POST /web/dataset/call_kw/library.copy/web_save#library.copy.web_save HTTP/1.1" 200 - 9 0.000 0.005
+2026-10-18 19:07:09,740 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (5, \'2026-10-18T19:07:09.740279\'::timestamp, 2, \'2026-09-28\'::date, 2, NULL, \'active\', \'2026-10-18T19:07:09.740279\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (3, 5, 2, 2, 2, active, 2026-09-28, null, null, 2026-10-18 19:07:09.740279, 2026-10-18 19:07:09.740279).
+ 
+2026-10-18 19:07:09,742 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:07:09,742 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:09] "POST /web/dataset/call_kw/library.copy/web_save#library.copy.web_save HTTP/1.1" 200 - 9 0.000 0.005
+2026-10-18 19:07:17,269 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (6, \'2026-10-18T19:07:17.268397\'::timestamp, 2, \'2026-09-28\'::date, 2, NULL, \'active\', \'2026-10-18T19:07:17.268397\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (4, 6, 2, 2, 2, active, 2026-09-28, null, null, 2026-10-18 19:07:17.268397, 2026-10-18 19:07:17.268397).
+ 
+2026-10-18 19:07:17,271 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:07:17,271 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:17] "POST /web/dataset/call_kw/library.copy/web_save#library.copy.web_save HTTP/1.1" 200 - 9 0.001 0.004
+2026-10-18 19:07:18,670 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:18] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 4 0.000 0.003
+2026-10-18 19:07:19,534 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:19] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 4 0.001 0.002
+2026-10-18 19:07:20,408 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:20] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.001 0.002
+2026-10-18 19:07:22,693 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:22] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:07:26,803 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:26] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:07:31,956 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:31] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 2 0.002 0.000
+2026-10-18 19:07:33,622 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:33] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:07:34,462 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:34] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:07:35,429 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:35] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-18 19:07:35,648 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:35] "POST /web/dataset/call_kw/library.member/web_name_search#library.member.web_name_search HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:07:38,232 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:38] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-18 19:07:45,125 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:07:45.124449\'::timestamp, 2, \'2026-10-12\'::date, 2, NULL, \'active\', \'2026-10-18T19:07:45.124449\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (5, 2, 2, 2, 2, active, 2026-10-12, null, null, 2026-10-18 19:07:45.124449, 2026-10-18 19:07:45.124449).
+ 
+2026-10-18 19:07:45,127 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:07:45,127 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:45] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 9 0.000 0.005
+2026-10-18 19:07:47,938 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:07:47.937393\'::timestamp, 2, \'2026-10-12\'::date, 2, NULL, \'active\', \'2026-10-18T19:07:47.937393\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (6, 2, 2, 2, 2, active, 2026-10-12, null, null, 2026-10-18 19:07:47.937393, 2026-10-18 19:07:47.937393).
+ 
+2026-10-18 19:07:47,939 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:07:47,939 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:47] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 9 0.002 0.003
+2026-10-18 19:07:51,214 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:07:51.213920\'::timestamp, 2, \'2026-10-12\'::date, 2, NULL, \'active\', \'2026-10-18T19:07:51.213920\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (7, 2, 2, 2, 2, active, 2026-10-12, null, null, 2026-10-18 19:07:51.21392, 2026-10-18 19:07:51.21392).
+ 
+2026-10-18 19:07:51,216 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:07:51,216 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:51] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 9 0.001 0.004
+2026-10-18 19:07:53,100 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:07:53.099401\'::timestamp, 2, \'2026-10-12\'::date, 2, NULL, \'active\', \'2026-10-18T19:07:53.099401\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (8, 2, 2, 2, 2, active, 2026-10-12, null, null, 2026-10-18 19:07:53.099401, 2026-10-18 19:07:53.099401).
+ 
+2026-10-18 19:07:53,101 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:07:53,101 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:53] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 9 0.001 0.004
+2026-10-18 19:07:54,071 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:54] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.000 0.003
+2026-10-18 19:07:57,117 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:57] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.000 0.003
+2026-10-18 19:07:58,390 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:07:58] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 4 0.001 0.002
+2026-10-18 19:08:01,879 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:01] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.001 0.002
+2026-10-18 19:08:02,741 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:02] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:08:05,351 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:05] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:08:07,323 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:07] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-18 19:08:08,005 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:08] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:08:08,924 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:08] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:08:09,125 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:09] "POST /web/dataset/call_kw/library.member/web_name_search#library.member.web_name_search HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:08:13,423 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:08:13.422543\'::timestamp, 2, \'2026-10-18\'::date, 2, NULL, \'active\', \'2026-10-18T19:08:13.422543\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (9, 2, 2, 2, 2, active, 2026-10-18, null, null, 2026-10-18 19:08:13.422543, 2026-10-18 19:08:13.422543).
+ 
+2026-10-18 19:08:13,425 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:08:13,425 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:13] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 9 0.001 0.004
+2026-10-18 19:08:16,804 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:08:16.803513\'::timestamp, 2, \'2026-10-18\'::date, 2, NULL, \'active\', \'2026-10-18T19:08:16.803513\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (10, 2, 2, 2, 2, active, 2026-10-18, null, null, 2026-10-18 19:08:16.803513, 2026-10-18 19:08:16.803513).
+ 
+2026-10-18 19:08:16,806 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:08:16,806 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:16] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 9 0.000 0.005
+2026-10-18 19:08:20,666 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:08:20.665582\'::timestamp, 2, \'2026-10-18\'::date, 2, NULL, \'active\', \'2026-10-18T19:08:20.665582\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (11, 2, 2, 2, 2, active, 2026-10-18, null, null, 2026-10-18 19:08:20.665582, 2026-10-18 19:08:20.665582).
+ 
+2026-10-18 19:08:20,667 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:08:20,667 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:20] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 9 0.001 0.003
+2026-10-18 19:08:22,667 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:08:22.666782\'::timestamp, 2, \'2026-10-18\'::date, 2, NULL, \'active\', \'2026-10-18T19:08:22.666782\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (12, 2, 2, 2, 2, active, 2026-10-18, null, null, 2026-10-18 19:08:22.666782, 2026-10-18 19:08:22.666782).
+ 
+2026-10-18 19:08:22,669 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:08:22,669 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:22] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 9 0.001 0.004
+2026-10-18 19:08:23,424 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:23] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.002 0.001
+2026-10-18 19:08:24,490 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:24] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 4 0.001 0.001
+2026-10-18 19:08:25,335 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:25] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.001 0.002
+2026-10-18 19:08:31,496 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:31] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:08:32,644 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:32] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:08:35,762 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:35] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:08:35,988 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:35] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:08:37,049 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:37] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:08:37,266 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:37] "POST /web/dataset/call_kw/library.member/web_name_search#library.member.web_name_search HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:08:39,179 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:08:39.178744\'::timestamp, 2, \'2026-10-18\'::date, 2, NULL, \'active\', \'2026-10-18T19:08:39.178744\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (13, 2, 2, 2, 2, active, 2026-10-18, null, null, 2026-10-18 19:08:39.178744, 2026-10-18 19:08:39.178744).
+ 
+2026-10-18 19:08:39,180 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:08:39,180 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:39] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 9 0.002 0.002
+2026-10-18 19:08:52,616 16060 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:08:52.616098\'::timestamp, 2, \'2026-10-18\'::date, 2, NULL, \'active\', \'2026-10-18T19:08:52.616098\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (14, 2, 2, 2, 2, active, 2026-10-18, null, null, 2026-10-18 19:08:52.616098, 2026-10-18 19:08:52.616098).
+ 
+2026-10-18 19:08:52,618 16060 WARNING odoo odoo.http: Цей примірник уже має активну видачу. 
+2026-10-18 19:08:52,618 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:08:52] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 9 0.000 0.005
+2026-10-18 19:09:23,321 16060 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:09:23] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:11:33,720 16060 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-18 19:11:33,720 16060 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-18 19:11:34,030 16060 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2026-10-18 19:11:37,069 22664 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-10-18 19:11:37,079 22664 INFO ? odoo.service.server: cron1 max age (0s) reached, releasing connection. 
+2026-10-18 19:11:42,331 22608 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-18 19:11:42,331 22608 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-18 19:11:42,331 22608 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-18 19:11:42,332 22608 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-18 19:11:43,448 22608 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-18 19:12:44,787 22608 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:44] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:12:44,787 22608 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:44] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:12:44,794 22608 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-18 19:12:44,797 22608 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-18 19:12:44,799 22608 WARNING ? odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:12:44,800 22608 INFO ? odoo.modules.loading: loading 15 modules... 
+2026-10-18 19:12:44,804 22608 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:12:44,804 22608 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:12:44,936 22608 INFO ? odoo.modules.loading: 15 modules loaded in 0.14s, 0 queries (+0 extra) 
+2026-10-18 19:12:44,964 22608 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-18 19:12:44,974 22608 INFO ? odoo.registry: Registry loaded in 0.189s 
+2026-10-18 19:12:44,975 22608 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-18 19:12:45,157 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:45] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 34 0.017 0.357
+2026-10-18 19:12:45,180 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:45] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 2 0.002 0.395
+2026-10-18 19:12:45,180 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:45] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.002 0.074
+2026-10-18 19:12:45,180 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:45] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 2 0.003 0.391
+2026-10-18 19:12:45,185 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:45] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 3 0.003 0.077
+2026-10-18 19:12:45,403 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:45] "GET /odoo/action-100 HTTP/1.1" 200 - 55 0.015 0.605
+2026-10-18 19:12:45,476 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:45] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-18 19:12:45,497 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:45] "GET /web/webclient/load_menus HTTP/1.1" 200 - 10 0.002 0.008
+2026-10-18 19:12:45,509 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:45] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.002 0.002
+2026-10-18 19:12:45,727 22608 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:45] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.005
+2026-10-18 19:12:45,763 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:45] "POST /web/dataset/call_kw/library.loan/get_views#library.loan.get_views HTTP/1.1" 200 - 25 0.026 0.015
+2026-10-18 19:12:45,798 23128 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-18 19:12:45,798 23128 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-18 19:12:45,798 23128 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-18 19:12:45,799 23128 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-18 19:12:46,027 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:46] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 3 0.002 0.027
+2026-10-18 19:12:46,031 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:46] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.004 0.005
+2026-10-18 19:12:46,038 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:46] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.008 0.008
+2026-10-18 19:12:46,140 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:46] "GET /web/webclient/translations?hash=95d6078399e4d88682872284bc720158e8fab15e&lang=uk_UA HTTP/1.1" 200 - 2 0.001 0.418
+2026-10-18 19:12:46,342 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:46] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.003
+2026-10-18 19:12:46,653 22608 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-18 19:12:47,209 23128 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-18 19:12:47,926 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:12:47] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:13:01,246 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:13:01] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.002 0.002
+2026-10-18 19:13:02,155 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:13:02] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:13:02,712 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:13:02] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.000 0.004
+2026-10-18 19:13:03,410 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:13:03] "POST /web/dataset/call_kw/library.member/web_name_search#library.member.web_name_search HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:13:05,976 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:13:05] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-18 19:13:07,033 22608 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:13:07.031685\'::timestamp, 2, \'2026-10-05\'::date, 2, NULL, \'active\', \'2026-10-18T19:13:07.031685\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (15, 2, 2, 2, 2, active, 2026-10-05, null, null, 2026-10-18 19:13:07.031685, 2026-10-18 19:13:07.031685).
+ 
+2026-10-18 19:13:07,234 22608 WARNING odoo odoo.http: Операцію неможливо завершити: Missing required value for the field 'Планова дата повернення' (due_date).
+Model: 'Library Loan' (library.loan)
+- create/update: a mandatory field is not set
+- delete: another model requires the record being deleted, you can archive it instead
+ 
+2026-10-18 19:13:07,234 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:13:07] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 10 0.001 0.204
+2026-10-18 19:13:15,507 22608 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:13:15.505606\'::timestamp, 2, \'2026-10-05\'::date, 2, NULL, \'active\', \'2026-10-18T19:13:15.505606\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (16, 2, 2, 2, 2, active, 2026-10-05, null, null, 2026-10-18 19:13:15.505606, 2026-10-18 19:13:15.505606).
+ 
+2026-10-18 19:13:15,509 22608 WARNING odoo odoo.http: Операцію неможливо завершити: Missing required value for the field 'Планова дата повернення' (due_date).
+Model: 'Library Loan' (library.loan)
+- create/update: a mandatory field is not set
+- delete: another model requires the record being deleted, you can archive it instead
+ 
+2026-10-18 19:13:15,510 22608 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:13:15] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 10 0.001 0.006
+2026-10-18 19:15:19,766 22608 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-18 19:15:19,766 22608 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-18 19:15:20,246 22608 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-10-18 19:15:20,246 22608 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 8 connections  
+2026-10-18 19:15:27,774 20352 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-18 19:15:27,774 20352 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-18 19:15:27,774 20352 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-18 19:15:27,774 20352 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-18 19:15:28,882 20352 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-18 19:15:30,708 4548 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-18 19:15:30,708 4548 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-18 19:15:30,708 4548 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-18 19:15:30,709 4548 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-18 19:15:32,136 4548 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-18 19:15:34,091 20352 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-18 19:15:34,093 20352 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-18 19:15:34,096 20352 WARNING ? odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:15:34,097 20352 INFO ? odoo.modules.loading: loading 15 modules... 
+2026-10-18 19:15:34,101 20352 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:15:34,101 20352 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:15:34,218 20352 INFO ? odoo.modules.loading: 15 modules loaded in 0.12s, 0 queries (+0 extra) 
+2026-10-18 19:15:34,238 20352 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-18 19:15:34,248 20352 INFO ? odoo.registry: Registry loaded in 0.192s 
+2026-10-18 19:15:34,249 20352 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-18 19:15:34,268 20352 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:15:34.253943\'::timestamp, 2, \'2026-10-05\'::date, 2, NULL, \'active\', \'2026-10-18T19:15:34.253943\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (17, 2, 2, 2, 2, active, 2026-10-05, null, null, 2026-10-18 19:15:34.253943, 2026-10-18 19:15:34.253943).
+ 
+2026-10-18 19:15:34,509 20352 WARNING odoo odoo.http: Операцію неможливо завершити: Missing required value for the field 'Планова дата повернення' (due_date).
+Model: 'Library Loan' (library.loan)
+- create/update: a mandatory field is not set
+- delete: another model requires the record being deleted, you can archive it instead
+ 
+2026-10-18 19:15:34,509 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:34] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 51 0.021 0.432
+2026-10-18 19:15:34,700 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:34] "GET /odoo/action-100/new HTTP/1.1" 200 - 54 0.119 0.526
+2026-10-18 19:15:34,793 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:34] "GET /web/webclient/load_menus HTTP/1.1" 200 - 10 0.002 0.008
+2026-10-18 19:15:35,404 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:35] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.009 0.103
+2026-10-18 19:15:35,404 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:35] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.013 0.099
+2026-10-18 19:15:35,405 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:35] "POST /web/dataset/call_kw/library.loan/get_views#library.loan.get_views HTTP/1.1" 200 - 19 0.073 0.059
+2026-10-18 19:15:35,419 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:35] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.009 0.115
+2026-10-18 19:15:35,423 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:35] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.045 0.084
+2026-10-18 19:15:35,542 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:35] "GET /web/webclient/translations?hash=95d6078399e4d88682872284bc720158e8fab15e&lang=uk_UA HTTP/1.1" 200 - 2 0.002 0.406
+2026-10-18 19:15:35,741 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:35] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.003
+2026-10-18 19:15:36,049 20352 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-18 19:15:37,276 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:37] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:15:39,088 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:39] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:15:39,904 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:39] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-18 19:15:40,122 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:40] "POST /web/dataset/call_kw/library.member/web_name_search#library.member.web_name_search HTTP/1.1" 200 - 3 0.001 0.002
+2026-10-18 19:15:43,844 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:43] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-18 19:15:44,526 20352 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:15:44.525549\'::timestamp, 2, \'2026-10-05\'::date, 2, NULL, \'active\', \'2026-10-18T19:15:44.525549\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (18, 2, 2, 2, 2, active, 2026-10-05, null, null, 2026-10-18 19:15:44.525549, 2026-10-18 19:15:44.525549).
+ 
+2026-10-18 19:15:44,528 20352 WARNING odoo odoo.http: Операцію неможливо завершити: Missing required value for the field 'Планова дата повернення' (due_date).
+Model: 'Library Loan' (library.loan)
+- create/update: a mandatory field is not set
+- delete: another model requires the record being deleted, you can archive it instead
+ 
+2026-10-18 19:15:44,528 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:44] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 10 0.001 0.005
+2026-10-18 19:15:47,334 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:47] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-18 19:15:47,645 20352 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:15:47.644145\'::timestamp, 2, \'2026-10-18\'::date, 2, NULL, \'active\', \'2026-10-18T19:15:47.644145\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (19, 2, 2, 2, 2, active, 2026-10-18, null, null, 2026-10-18 19:15:47.644145, 2026-10-18 19:15:47.644145).
+ 
+2026-10-18 19:15:47,647 20352 WARNING odoo odoo.http: Операцію неможливо завершити: Missing required value for the field 'Планова дата повернення' (due_date).
+Model: 'Library Loan' (library.loan)
+- create/update: a mandatory field is not set
+- delete: another model requires the record being deleted, you can archive it instead
+ 
+2026-10-18 19:15:47,647 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:47] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 10 0.003 0.003
+2026-10-18 19:15:55,979 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:55] "POST /web/action/load HTTP/1.1" 200 - 10 0.002 0.006
+2026-10-18 19:15:56,052 20352 ERROR odoo odoo.sql_db: bad query: b'INSERT INTO "library_loan" ("copy_id", "create_date", "create_uid", "loan_date", "member_id", "return_date", "state", "write_date", "write_uid") VALUES (2, \'2026-10-18T19:15:56.051470\'::timestamp, 2, \'2026-10-18\'::date, 2, NULL, \'active\', \'2026-10-18T19:15:56.051470\'::timestamp, 2) RETURNING "id"'
+ERROR: ПОМИЛКА:  null значення в стовпці "due_date" відношення "library_loan" порушує not-null обмеження
+DETAIL:  Помилковий рядок містить (20, 2, 2, 2, 2, active, 2026-10-18, null, null, 2026-10-18 19:15:56.05147, 2026-10-18 19:15:56.05147).
+ 
+2026-10-18 19:15:56,054 20352 WARNING odoo odoo.http: Операцію неможливо завершити: Missing required value for the field 'Планова дата повернення' (due_date).
+Model: 'Library Loan' (library.loan)
+- create/update: a mandatory field is not set
+- delete: another model requires the record being deleted, you can archive it instead
+ 
+2026-10-18 19:15:56,054 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:56] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 10 0.001 0.005
+2026-10-18 19:15:57,415 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:57] "POST /web/dataset/call_kw/library.book/get_views#library.book.get_views HTTP/1.1" 200 - 23 0.005 0.012
+2026-10-18 19:15:57,719 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:57] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 5 0.000 0.004
+2026-10-18 19:15:59,212 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.006
+2026-10-18 19:15:59,220 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 5 0.001 0.005
+2026-10-18 19:15:59,228 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2026-10-18 19:15:59,254 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 34 0.013 0.028
+2026-10-18 19:15:59,256 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 44 0.032 0.010
+2026-10-18 19:15:59,296 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.011 0.062
+2026-10-18 19:15:59,520 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:15:59,625 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "GET /pos_restaurant/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:15:59,890 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:15:59,894 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:15:59,897 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:15:59,898 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:15:59,899 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:15:59,937 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:15:59] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:16:00,203 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:00,204 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:00,204 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:00,205 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:00,205 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:16:00,249 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:16:00,513 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:00,513 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:00,513 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:00,514 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-10-18 19:16:00,514 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:00,556 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:16:00,820 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:16:00,820 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:16:00,822 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:16:00,824 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:00,825 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /base/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:00,865 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:00] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:16:01,129 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /marketing_card/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:01,130 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:01,130 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:01,131 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-10-18 19:16:01,132 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:16:01,174 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:16:01,440 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:01,441 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:01,441 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:01,442 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:01,443 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-10-18 19:16:01,484 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:16:01,754 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.005
+2026-10-18 19:16:01,754 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-10-18 19:16:01,757 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2026-10-18 19:16:01,767 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.012 0.007
+2026-10-18 19:16:01,785 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.003 0.033
+2026-10-18 19:16:01,789 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:01] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:16:02,075 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:16:02,076 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:16:02,077 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-10-18 19:16:02,077 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2026-10-18 19:16:02,098 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:16:02,098 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:16:02,384 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:02,384 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:16:02,385 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:02,385 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /project_todo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:16:02,414 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:16:02,414 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:16:02,694 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:02,695 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:02,695 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /base/static/img/icons/sale_amazon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-10-18 19:16:02,695 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:02] "GET /pos_mollie/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:16:06,077 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:06] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.011 0.008
+2026-10-18 19:16:06,290 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:06] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.004 0.008
+2026-10-18 19:16:06,387 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:06] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:16:07,312 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:07] "POST /web/dataset/call_button/ir.module.module/more_info#ir.module.module.more_info HTTP/1.1" 200 - 1 0.000 0.005
+2026-10-18 19:16:07,627 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:07] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 1 0.000 0.004
+2026-10-18 19:16:07,862 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:07] "POST /web/dataset/call_kw/ir.module.module/web_read#ir.module.module.web_read HTTP/1.1" 200 - 11 0.009 0.022
+2026-10-18 19:16:07,942 20352 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:07] "GET /base/static/src/css/description.css HTTP/1.1" 200 - 0 0.000 0.001
+2026-10-18 19:16:08,193 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:08] "GET /web/image/ir.module.module/714/icon_image?unique=1792232036000 HTTP/1.1" 200 - 3 0.000 0.004
+2026-10-18 19:16:09,245 20352 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-18 19:16:09,246 20352 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-18 19:16:09,246 20352 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-18 19:16:09,852 20352 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:16:10,105 20352 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-18 19:16:10,128 20352 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-18 19:16:10,131 20352 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-18 19:16:10,144 20352 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-18 19:16:10,145 20352 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-18 19:16:10,530 20352 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:16:10,726 20352 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-18 19:16:10,726 20352 INFO odoo odoo.modules.loading: Loading module library_rental (2/15) 
+2026-10-18 19:16:10,728 20352 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:16:10,728 20352 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:16:10,729 20352 INFO odoo odoo.registry: module library_rental: creating or updating database tables 
+2026-10-18 19:16:10,767 20352 INFO odoo odoo.modules.loading: loading library_rental/security/ir.model.access.csv 
+2026-10-18 19:16:10,772 20352 INFO odoo odoo.modules.loading: loading library_rental/data/ir_cron.xml 
+2026-10-18 19:16:10,781 20352 INFO odoo odoo.modules.loading: loading library_rental/views/library_book_views.xml 
+2026-10-18 19:16:10,802 20352 INFO odoo odoo.modules.loading: loading library_rental/views/library_copy_views.xml 
+2026-10-18 19:16:10,813 20352 INFO odoo odoo.modules.loading: loading library_rental/views/library_member_views.xml 
+2026-10-18 19:16:10,824 20352 INFO odoo odoo.modules.loading: loading library_rental/views/library_loan_views.xml 
+2026-10-18 19:16:10,834 20352 INFO odoo odoo.modules.loading: loading library_rental/views/library_menus.xml 
+2026-10-18 19:16:10,848 20352 INFO odoo odoo.addons.base.models.ir_module: module library_rental: no translation for language uk_UA 
+2026-10-18 19:16:10,855 20352 INFO odoo odoo.modules.loading: Module library_rental loaded in 0.13s, 250 queries (+250 other) 
+2026-10-18 19:16:10,859 20352 INFO odoo odoo.modules.loading: 15 modules loaded in 0.13s, 250 queries (+250 extra) 
+2026-10-18 19:16:10,929 20352 INFO odoo odoo.registry: verifying fields for every extended model 
+2026-10-18 19:16:11,043 20352 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-18 19:16:11,047 20352 INFO odoo odoo.registry: Registry changed, signaling through the database 
+2026-10-18 19:16:11,048 20352 INFO odoo odoo.registry: Registry loaded in 0.925s 
+2026-10-18 19:16:11,048 20352 INFO odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-10-18 19:16:11,054 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:11] "POST /web/dataset/call_button/ir.module.module/button_immediate_upgrade#ir.module.module.button_immediate_upgrade HTTP/1.1" 200 - 4149 0.712 1.100
+2026-10-18 19:16:11,376 20352 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-18 19:16:11,600 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:11] "GET /odoo HTTP/1.1" 200 - 59 0.010 0.216
+2026-10-18 19:16:11,649 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:11] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.003 0.005
+2026-10-18 19:16:11,650 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:11] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.004 0.005
+2026-10-18 19:16:12,026 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:12] "GET /web/webclient/translations?hash=&lang=uk_UA HTTP/1.1" 200 - 2 0.000 0.018
+2026-10-18 19:16:12,231 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:12] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.003
+2026-10-18 19:16:12,351 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:12] "POST /web/dataset/call_kw/library.book/get_views#library.book.get_views HTTP/1.1" 200 - 26 0.007 0.010
+2026-10-18 19:16:12,357 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:12] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.003 0.003
+2026-10-18 19:16:12,362 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:12] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.003 0.009
+2026-10-18 19:16:12,553 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:12] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 6 0.001 0.003
+2026-10-18 19:16:12,692 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:12] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.003
+2026-10-18 19:16:13,638 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:13] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.005
+2026-10-18 19:16:13,962 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:13] "POST /web/dataset/call_kw/library.member/get_views#library.member.get_views HTTP/1.1" 200 - 19 0.005 0.009
+2026-10-18 19:16:14,151 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:14] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 3 0.002 0.001
+2026-10-18 19:16:14,236 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:14] "POST /web/action/load HTTP/1.1" 200 - 10 0.000 0.007
+2026-10-18 19:16:14,282 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:14] "POST /web/dataset/call_kw/library.loan/get_views#library.loan.get_views HTTP/1.1" 200 - 11 0.003 0.006
+2026-10-18 19:16:14,308 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:14] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 3 0.002 0.001
+2026-10-18 19:16:14,556 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:14] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:16:15,241 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:15] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-18 19:16:16,010 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:16] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:16:16,407 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:16] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-18 19:16:17,008 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:17] "POST /web/dataset/call_kw/library.member/web_name_search#library.member.web_name_search HTTP/1.1" 200 - 2 0.001 0.001
+2026-10-18 19:16:19,545 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:19] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-18 19:16:20,323 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:20] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 15 0.003 0.007
+2026-10-18 19:16:20,532 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:20] "POST /web/dataset/call_button/library.loan/action_return#library.loan.action_return HTTP/1.1" 200 - 6 0.002 0.002
+2026-10-18 19:16:20,639 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:20] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.001 0.002
+2026-10-18 19:16:24,478 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:24] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.001 0.002
+2026-10-18 19:16:27,687 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:27] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.000 0.003
+2026-10-18 19:16:38,233 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:38] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.001 0.002
+2026-10-18 19:16:39,291 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:39] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.000 0.003
+2026-10-18 19:16:41,989 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:41] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:16:43,314 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:43] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.005
+2026-10-18 19:16:43,525 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:43] "POST /web/dataset/call_kw/library.copy/get_views#library.copy.get_views HTTP/1.1" 200 - 11 0.004 0.004
+2026-10-18 19:16:43,639 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:43] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.000 0.003
+2026-10-18 19:16:45,007 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:45] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.000 0.004
+2026-10-18 19:16:45,668 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:45] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:16:46,750 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:46] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.002 0.001
+2026-10-18 19:16:50,519 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:50] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.002 0.001
+2026-10-18 19:16:50,793 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:50] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.001 0.003
+2026-10-18 19:16:54,553 20352 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:16:54] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.000 0.003
+2026-10-18 19:17:29,191 20352 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2026-10-18 19:17:29,229 20352 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 1 entries 
+2026-10-18 19:17:29,239 20352 INFO odoo odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-10-18 19:17:29,240 20352 INFO odoo odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2026-10-18 19:17:29,254 20352 INFO odoo odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-10-18 19:17:29,263 20352 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-10-18 19:17:29,264 20352 INFO odoo odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-10-18 19:17:29,272 20352 INFO odoo odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2026-10-18 19:17:29,274 20352 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 0; remaining 0; duration 0.08s) 
+2026-10-18 19:20:54,310 20352 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-18 19:20:54,310 20352 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-18 19:20:54,773 20352 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-10-18 19:20:54,773 20352 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 9 connections  
+2026-10-18 19:20:56,234 23140 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-18 19:20:56,235 23140 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-18 19:20:56,235 23140 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-18 19:20:56,235 23140 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-18 19:20:57,346 23140 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-18 19:20:58,792 23140 INFO ? odoo.service.server: cron1 max age (0s) reached, releasing connection. 
+2026-10-18 19:20:58,808 23140 INFO ? odoo.sql_db: Connection to the database failed 
+2026-10-18 19:21:07,865 16372 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-18 19:21:07,865 16372 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-18 19:21:07,865 16372 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-18 19:21:07,865 16372 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-18 19:21:09,502 16372 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-18 19:21:10,953 23140 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-18 19:21:10,956 23140 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-18 19:21:10,958 23140 WARNING ? odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:21:10,959 23140 INFO ? odoo.modules.loading: loading 15 modules... 
+2026-10-18 19:21:10,963 23140 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:21:10,963 23140 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:21:11,083 23140 INFO ? odoo.modules.loading: 15 modules loaded in 0.12s, 0 queries (+0 extra) 
+2026-10-18 19:21:11,103 23140 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-18 19:21:11,112 23140 INFO ? odoo.registry: Registry loaded in 0.193s 
+2026-10-18 19:21:11,113 23140 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-18 19:21:11,122 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:11] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 23 0.014 0.190
+2026-10-18 19:21:11,556 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:11] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.000 0.127
+2026-10-18 19:21:11,563 23140 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-18 19:21:25,495 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:25] "GET /odoo/action-100/21 HTTP/1.1" 200 - 57 0.018 0.207
+2026-10-18 19:21:25,581 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:25] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.004 0.006
+2026-10-18 19:21:26,172 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:26] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 5 0.010 0.104
+2026-10-18 19:21:26,172 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:26] "POST /web/dataset/call_kw/library.loan/get_views#library.loan.get_views HTTP/1.1" 200 - 25 0.020 0.120
+2026-10-18 19:21:26,172 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:26] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.008 0.105
+2026-10-18 19:21:26,182 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:26] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.040 0.082
+2026-10-18 19:21:26,186 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:26] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.004 0.121
+2026-10-18 19:21:26,335 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:26] "GET /web/webclient/translations?hash=95d6078399e4d88682872284bc720158e8fab15e&lang=uk_UA HTTP/1.1" 200 - 2 0.000 0.398
+2026-10-18 19:21:26,497 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:26] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.003
+2026-10-18 19:21:27,530 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:27] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.005
+2026-10-18 19:21:27,621 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:27] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 6 0.002 0.003
+2026-10-18 19:21:27,632 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:27] "POST /web/dataset/call_kw/library.book/get_views#library.book.get_views HTTP/1.1" 200 - 23 0.008 0.009
+2026-10-18 19:21:27,741 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:27] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:21:28,629 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:28] "POST /web/action/load HTTP/1.1" 200 - 10 0.002 0.005
+2026-10-18 19:21:28,973 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:28] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 38 0.006 0.020
+2026-10-18 19:21:29,167 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:29] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:21:29,292 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:29] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.002
+2026-10-18 19:21:29,310 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:29] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.010 0.013
+2026-10-18 19:21:29,324 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:29] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.005 0.031
+2026-10-18 19:21:29,348 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:29] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-18 19:21:31,228 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:31] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.011 0.004
+2026-10-18 19:21:31,239 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:31] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.003 0.022
+2026-10-18 19:21:31,431 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:31] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:21:36,922 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.006 0.013
+2026-10-18 19:21:37,234 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:37] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.004 0.004
+2026-10-18 19:21:37,445 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:37] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-18 19:21:38,175 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:38] "POST /web/dataset/call_button/ir.module.module/more_info#ir.module.module.more_info HTTP/1.1" 200 - 1 0.001 0.003
+2026-10-18 19:21:38,487 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:38] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-18 19:21:38,715 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:38] "POST /web/dataset/call_kw/ir.module.module/web_read#ir.module.module.web_read HTTP/1.1" 200 - 11 0.004 0.016
+2026-10-18 19:21:38,813 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:38] "GET /web/image/ir.module.module/714/icon_image?unique=1792350970000 HTTP/1.1" 200 - 3 0.001 0.004
+2026-10-18 19:21:39,374 23140 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-18 19:21:39,374 23140 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-18 19:21:39,374 23140 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-18 19:21:39,846 23140 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:21:40,098 23140 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-18 19:21:40,312 23140 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-18 19:21:40,314 23140 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-18 19:21:40,329 23140 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-18 19:21:40,330 23140 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-18 19:21:40,713 23140 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:21:40,902 23140 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-18 19:21:40,902 23140 INFO odoo odoo.modules.loading: Loading module library_rental (2/15) 
+2026-10-18 19:21:40,904 23140 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:21:40,904 23140 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:21:40,905 23140 INFO odoo odoo.registry: module library_rental: creating or updating database tables 
+2026-10-18 19:21:40,925 23140 INFO odoo odoo.modules.loading: loading library_rental/security/ir.model.access.csv 
+2026-10-18 19:21:40,931 23140 INFO odoo odoo.modules.loading: loading library_rental/data/ir_cron.xml 
+2026-10-18 19:21:40,937 23140 INFO odoo odoo.modules.loading: loading library_rental/views/library_book_views.xml 
+2026-10-18 19:21:40,955 23140 INFO odoo odoo.modules.loading: loading library_rental/views/library_copy_views.xml 
+2026-10-18 19:21:40,966 23140 INFO odoo odoo.modules.loading: loading library_rental/views/library_member_views.xml 
+2026-10-18 19:21:40,977 23140 INFO odoo odoo.modules.loading: loading library_rental/views/library_loan_views.xml 
+2026-10-18 19:21:40,990 23140 INFO odoo odoo.modules.loading: loading library_rental/views/library_menus.xml 
+2026-10-18 19:21:41,000 23140 INFO odoo odoo.addons.base.models.ir_module: module library_rental: no translation for language uk_UA 
+2026-10-18 19:21:41,007 23140 INFO odoo odoo.modules.loading: Module library_rental loaded in 0.10s, 248 queries (+248 other) 
+2026-10-18 19:21:41,011 23140 INFO odoo odoo.modules.loading: 15 modules loaded in 0.11s, 248 queries (+248 extra) 
+2026-10-18 19:21:41,082 23140 INFO odoo odoo.registry: verifying fields for every extended model 
+2026-10-18 19:21:41,195 23140 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-18 19:21:41,198 23140 INFO odoo odoo.registry: Registry changed, signaling through the database 
+2026-10-18 19:21:41,199 23140 INFO odoo odoo.registry: Registry loaded in 0.893s 
+2026-10-18 19:21:41,199 23140 INFO odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-10-18 19:21:41,204 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:41] "POST /web/dataset/call_button/ir.module.module/button_immediate_upgrade#ir.module.module.button_immediate_upgrade HTTP/1.1" 200 - 4147 0.684 1.150
+2026-10-18 19:21:41,526 23140 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-18 19:21:41,751 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:41] "GET /odoo HTTP/1.1" 200 - 59 0.011 0.216
+2026-10-18 19:21:41,804 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:41] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.002 0.007
+2026-10-18 19:21:41,848 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:41] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.001 0.003
+2026-10-18 19:21:42,200 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:42] "GET /web/webclient/translations?hash=&lang=uk_UA HTTP/1.1" 200 - 2 0.000 0.019
+2026-10-18 19:21:42,389 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:42] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.005
+2026-10-18 19:21:42,535 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:42] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.003 0.009
+2026-10-18 19:21:42,536 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:42] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.006 0.007
+2026-10-18 19:21:42,546 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:42] "POST /web/dataset/call_kw/library.book/get_views#library.book.get_views HTTP/1.1" 200 - 26 0.013 0.011
+2026-10-18 19:21:42,710 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:42] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 6 0.001 0.003
+2026-10-18 19:21:42,849 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:42] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.001
+2026-10-18 19:21:43,806 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:21:43] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-18 19:22:21,352 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:21] "POST /web/action/load HTTP/1.1" 200 - 10 0.002 0.004
+2026-10-18 19:22:21,550 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:21] "POST /web/dataset/call_kw/library.loan/get_views#library.loan.get_views HTTP/1.1" 200 - 16 0.001 0.011
+2026-10-18 19:22:21,675 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:21] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 5 0.003 0.000
+2026-10-18 19:22:24,102 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:24] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.001 0.003
+2026-10-18 19:22:28,055 23140 INFO odoo odoo.models.unlink: User #2 deleted library.loan records with IDs: [21] 
+2026-10-18 19:22:28,056 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:28] "POST /web/dataset/call_kw/library.loan/unlink#library.loan.unlink HTTP/1.1" 200 - 7 0.001 0.005
+2026-10-18 19:22:28,271 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:28] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:22:28,816 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:28] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-18 19:22:31,535 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:31] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:22:34,661 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:34] "POST /web/dataset/call_kw/library.copy/web_name_search#library.copy.web_name_search HTTP/1.1" 200 - 2 0.002 0.001
+2026-10-18 19:22:35,710 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:35] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-18 19:22:35,929 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:35] "POST /web/dataset/call_kw/library.member/web_name_search#library.member.web_name_search HTTP/1.1" 200 - 3 0.001 0.002
+2026-10-18 19:22:38,258 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:38] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 18 0.003 0.005
+2026-10-18 19:22:39,144 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:39] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.000 0.003
+2026-10-18 19:22:41,093 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:41] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.001 0.002
+2026-10-18 19:22:43,507 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:43] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.000 0.004
+2026-10-18 19:22:45,006 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:45] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 9 0.001 0.005
+2026-10-18 19:22:46,779 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:46] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.000 0.004
+2026-10-18 19:22:48,080 23140 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:22:48] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.000 0.003
+2026-10-18 19:23:09,659 16372 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-18 19:23:09,664 16372 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-10-18 19:23:09,668 16372 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:23:09,670 16372 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-18 19:23:09,679 16372 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:23:09,679 16372 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:23:10,095 16372 INFO odoo odoo.modules.loading: 15 modules loaded in 0.43s, 0 queries (+0 extra) 
+2026-10-18 19:23:10,153 16372 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-18 19:23:10,164 16372 INFO odoo odoo.registry: Registry loaded in 0.542s 
+2026-10-18 19:23:10,166 16372 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2026-10-18 19:23:10,285 16372 INFO odoo odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2026-10-18 19:23:10,301 16372 INFO odoo odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-10-18 19:23:10,314 16372 INFO odoo odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2026-10-18 19:23:10,331 16372 INFO odoo odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-10-18 19:23:10,348 16372 INFO odoo odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-10-18 19:23:10,356 16372 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-10-18 19:23:10,363 16372 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-10-18 19:23:10,365 16372 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 0; remaining 0; duration 0.20s) 
+2026-10-18 19:24:57,350 23140 WARNING ? odoo.service.server: Thread <Thread(odoo.service.http.request.19144, started 19144)> virtual real time limit (129/120s) reached. 
+2026-10-18 19:24:57,350 23140 INFO ? odoo.service.server: Dumping stacktrace of limit exceeding threads before reloading 
+2026-10-18 19:24:57,371 23140 INFO ? odoo.tools.misc: 
+# Thread: <Thread(odoo.service.http.request.19144, started 19144)> (db:n/a) (uid:n/a) (url:n/a) (qc:n/a qt:n/a pt:n/a)
+File: "C:\Program Files\Odoo 19\python\Lib\threading.py", line 1030, in _bootstrap
+  self._bootstrap_inner()
+File: "C:\Program Files\Odoo 19\python\Lib\threading.py", line 1073, in _bootstrap_inner
+  self.run()
+File: "C:\Program Files\Odoo 19\python\Lib\threading.py", line 1010, in run
+  self._target(*self._args, **self._kwargs)
+File: "C:\Program Files\Odoo 19\python\Lib\socketserver.py", line 692, in process_request_thread
+  self.finish_request(request, client_address)
+File: "C:\Program Files\Odoo 19\python\Lib\socketserver.py", line 362, in finish_request
+  self.RequestHandlerClass(request, client_address, self)
+File: "C:\Program Files\Odoo 19\server\odoo\service\server.py", line 132, in __init__
+  super().__init__(*args, **kwargs)
+File: "C:\Program Files\Odoo 19\python\Lib\socketserver.py", line 761, in __init__
+  self.handle()
+File: "C:\Program Files\Odoo 19\python\Lib\site-packages\werkzeug\serving.py", line 390, in handle
+  super().handle()
+File: "C:\Program Files\Odoo 19\python\Lib\http\server.py", line 436, in handle
+  self.handle_one_request()
+File: "C:\Program Files\Odoo 19\python\Lib\http\server.py", line 404, in handle_one_request
+  self.raw_requestline = self.rfile.readline(65537)
+File: "C:\Program Files\Odoo 19\python\Lib\socket.py", line 707, in readinto
+  return self._sock.recv_into(b) 
+2026-10-18 19:24:57,732 16720 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-18 19:24:57,732 16720 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-18 19:24:57,732 16720 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-18 19:24:57,732 16720 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-18 19:24:58,900 16720 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-18 19:25:15,558 16720 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-18 19:25:15,560 16720 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-18 19:25:15,563 16720 WARNING ? odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:25:15,564 16720 INFO ? odoo.modules.loading: loading 15 modules... 
+2026-10-18 19:25:15,568 16720 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:25:15,568 16720 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:25:15,687 16720 INFO ? odoo.modules.loading: 15 modules loaded in 0.12s, 0 queries (+0 extra) 
+2026-10-18 19:25:15,707 16720 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-18 19:25:15,715 16720 INFO ? odoo.registry: Registry loaded in 0.188s 
+2026-10-18 19:25:15,716 16720 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-18 19:25:15,725 16720 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:15] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 23 0.011 0.188
+2026-10-18 19:25:16,033 16720 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-18 19:25:16,093 16720 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:16] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.001 0.050
+2026-10-18 19:25:17,005 16720 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-18 19:25:17,005 16720 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-18 19:25:18,076 16720 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-10-18 19:25:18,076 16720 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2026-10-18 19:25:18,087 16720 INFO ? odoo.service.server: cron1 max age (0s) reached, releasing connection. 
+2026-10-18 19:25:25,975 15456 INFO ? odoo: Odoo version 19.0-20261016 
+2026-10-18 19:25:25,976 15456 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-10-18 19:25:25,976 15456 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-10-18 19:25:25,976 15456 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-18 19:25:27,421 15456 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-10-18 19:25:29,079 15456 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-18 19:25:29,083 15456 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-18 19:25:29,087 15456 WARNING ? odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:25:29,089 15456 INFO ? odoo.modules.loading: loading 15 modules... 
+2026-10-18 19:25:29,095 15456 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:25:29,096 15456 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:25:29,435 15456 INFO ? odoo.modules.loading: 15 modules loaded in 0.35s, 0 queries (+0 extra) 
+2026-10-18 19:25:29,496 15456 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-18 19:25:29,509 15456 INFO ? odoo.registry: Registry loaded in 0.467s 
+2026-10-18 19:25:29,510 15456 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-18 19:25:30,031 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:30] "GET /odoo/action-100/22 HTTP/1.1" 200 - 85 0.035 0.956
+2026-10-18 19:25:30,046 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:30] "GET /odoo/action-100/22 HTTP/1.1" 200 - 9 0.001 0.013
+2026-10-18 19:25:30,120 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:30] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.006 0.023
+2026-10-18 19:25:30,921 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:30] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 5 0.047 0.139
+2026-10-18 19:25:30,924 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:30] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.020 0.167
+2026-10-18 19:25:30,955 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:30] "POST /web/dataset/call_kw/library.loan/get_views#library.loan.get_views HTTP/1.1" 200 - 25 0.070 0.223
+2026-10-18 19:25:30,958 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:30] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.039 0.180
+2026-10-18 19:25:30,990 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:30] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.020 0.229
+2026-10-18 19:25:31,363 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:31] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.045
+2026-10-18 19:25:31,371 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:31] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.003 0.050
+2026-10-18 19:25:31,554 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:31] "GET /web/webclient/translations?hash=95d6078399e4d88682872284bc720158e8fab15e&lang=uk_UA HTTP/1.1" 200 - 2 0.002 1.153
+2026-10-18 19:25:31,684 15456 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-18 19:25:32,799 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:32] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.013
+2026-10-18 19:25:32,887 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:32] "POST /web/dataset/call_kw/res.config.settings/get_views#res.config.settings.get_views HTTP/1.1" 200 - 9 0.005 0.021
+2026-10-18 19:25:33,037 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:33] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 31 0.009 0.026
+2026-10-18 19:25:33,116 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:33] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.003 0.003
+2026-10-18 19:25:33,209 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:33] "POST /base_setup/data HTTP/1.1" 200 - 6 0.003 0.003
+2026-10-18 19:25:33,359 15456 INFO ? werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:33] "GET /base/static/description/settings.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-18 19:25:33,365 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:33] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2026-10-18 19:25:34,331 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:34] "POST /web/action/load HTTP/1.1" 200 - 10 0.000 0.012
+2026-10-18 19:25:34,699 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:34] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 37 0.009 0.044
+2026-10-18 19:25:34,867 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.003
+2026-10-18 19:25:35,039 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:35] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.004 0.010
+2026-10-18 19:25:35,060 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:35] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.024 0.017
+2026-10-18 19:25:35,092 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:35] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.004 0.066
+2026-10-18 19:25:35,121 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:35] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.002
+2026-10-18 19:25:38,208 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.612
+2026-10-18 19:25:38,259 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.003 0.659
+2026-10-18 19:25:38,280 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:38] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2026-10-18 19:25:38,830 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.003
+2026-10-18 19:25:39,324 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:39] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.002 0.494
+2026-10-18 19:25:39,346 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:39] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.005
+2026-10-18 19:25:42,586 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.002
+2026-10-18 19:25:43,239 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:43] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.002 0.452
+2026-10-18 19:25:43,248 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:43] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.002
+2026-10-18 19:25:44,990 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:44] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.006 0.011
+2026-10-18 19:25:45,012 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:45] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.014 0.026
+2026-10-18 19:25:45,194 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:45] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2026-10-18 19:25:46,772 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:46] "POST /web/dataset/call_button/ir.module.module/more_info#ir.module.module.more_info HTTP/1.1" 200 - 1 0.000 0.010
+2026-10-18 19:25:47,089 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:47] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 1 0.001 0.005
+2026-10-18 19:25:47,354 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:47] "POST /web/dataset/call_kw/ir.module.module/web_read#ir.module.module.web_read HTTP/1.1" 200 - 11 0.004 0.052
+2026-10-18 19:25:47,415 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:47] "GET /web/image/ir.module.module/714/icon_image?unique=1792351300000 HTTP/1.1" 200 - 3 0.001 0.007
+2026-10-18 19:25:48,054 15456 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-18 19:25:48,055 15456 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-18 19:25:48,055 15456 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Library Rental'] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-18 19:25:48,929 15456 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:25:49,440 15456 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user edik22082006@gmail.com #2 via 127.0.0.1 
+2026-10-18 19:25:50,064 15456 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-10-18 19:25:50,071 15456 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-10-18 19:25:50,116 15456 INFO odoo odoo.modules.loading: updating modules list 
+2026-10-18 19:25:50,117 15456 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-18 19:25:50,851 15456 WARNING odoo odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-18 19:25:51,235 15456 INFO odoo odoo.modules.loading: loading 15 modules... 
+2026-10-18 19:25:51,236 15456 INFO odoo odoo.modules.loading: Loading module library_rental (2/15) 
+2026-10-18 19:25:51,240 15456 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:25:51,240 15456 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-10-18 19:25:51,244 15456 INFO odoo odoo.registry: module library_rental: creating or updating database tables 
+2026-10-18 19:25:51,282 15456 INFO odoo odoo.modules.loading: loading library_rental/security/ir.model.access.csv 
+2026-10-18 19:25:51,295 15456 INFO odoo odoo.modules.loading: loading library_rental/data/ir_cron.xml 
+2026-10-18 19:25:51,308 15456 INFO odoo odoo.modules.loading: loading library_rental/views/library_book_views.xml 
+2026-10-18 19:25:51,346 15456 INFO odoo odoo.modules.loading: loading library_rental/views/library_copy_views.xml 
+2026-10-18 19:25:51,369 15456 INFO odoo odoo.modules.loading: loading library_rental/views/library_member_views.xml 
+2026-10-18 19:25:51,392 15456 INFO odoo odoo.modules.loading: loading library_rental/views/library_loan_views.xml 
+2026-10-18 19:25:51,414 15456 INFO odoo odoo.modules.loading: loading library_rental/views/library_menus.xml 
+2026-10-18 19:25:51,437 15456 INFO odoo odoo.addons.base.models.ir_module: module library_rental: no translation for language uk_UA 
+2026-10-18 19:25:51,456 15456 INFO odoo odoo.modules.loading: Module library_rental loaded in 0.22s, 245 queries (+245 other) 
+2026-10-18 19:25:51,467 15456 INFO odoo odoo.modules.loading: 15 modules loaded in 0.23s, 245 queries (+245 extra) 
+2026-10-18 19:25:51,636 15456 INFO odoo odoo.registry: verifying fields for every extended model 
+2026-10-18 19:25:51,779 15456 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-10-18 19:25:51,785 15456 INFO odoo odoo.registry: Registry changed, signaling through the database 
+2026-10-18 19:25:51,785 15456 INFO odoo odoo.registry: Registry loaded in 1.727s 
+2026-10-18 19:25:51,785 15456 INFO odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-10-18 19:25:51,795 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:51] "POST /web/dataset/call_button/ir.module.module/button_immediate_upgrade#ir.module.module.button_immediate_upgrade HTTP/1.1" 200 - 4140 0.732 3.014
+2026-10-18 19:25:52,116 15456 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-18 19:25:52,585 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:52] "GET /odoo HTTP/1.1" 200 - 59 0.017 0.455
+2026-10-18 19:25:52,646 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:52] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.005 0.020
+2026-10-18 19:25:52,649 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:52] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.006 0.008
+2026-10-18 19:25:53,072 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:53] "GET /web/webclient/translations?hash=&lang=uk_UA HTTP/1.1" 200 - 2 0.001 0.076
+2026-10-18 19:25:53,211 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:53] "POST /web/action/load HTTP/1.1" 200 - 10 0.002 0.010
+2026-10-18 19:25:53,439 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:53] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.018 0.018
+2026-10-18 19:25:53,440 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:53] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.009 0.025
+2026-10-18 19:25:53,440 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:53] "POST /web/dataset/call_kw/library.book/get_views#library.book.get_views HTTP/1.1" 200 - 26 0.018 0.036
+2026-10-18 19:25:53,532 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:53] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 6 0.002 0.005
+2026-10-18 19:25:53,774 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:53] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.003
+2026-10-18 19:25:54,189 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:54] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 4 0.001 0.005
+2026-10-18 19:25:54,986 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:54] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2026-10-18 19:25:55,211 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:55] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.008
+2026-10-18 19:25:55,349 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:55] "POST /web/dataset/call_kw/library.loan/get_views#library.loan.get_views HTTP/1.1" 200 - 16 0.002 0.021
+2026-10-18 19:25:55,534 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:55] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 5 0.001 0.006
+2026-10-18 19:25:57,208 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:25:57] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.001 0.005
+2026-10-18 19:26:04,277 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:04] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.001 0.005
+2026-10-18 19:26:05,356 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:05] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.003 0.004
+2026-10-18 19:26:09,716 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:09] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 3 0.001 0.006
+2026-10-18 19:26:10,480 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:10] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 8 0.002 0.011
+2026-10-18 19:26:14,443 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:14] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.000 0.006
+2026-10-18 19:26:15,150 15456 WARNING odoo odoo.http: Фактична дата повернення не може бути в майбутньому. 
+2026-10-18 19:26:15,150 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:15] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 2 0.001 0.008
+2026-10-18 19:26:22,827 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:22] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 2 0.002 0.003
+2026-10-18 19:26:24,025 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:24] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 10 0.004 0.007
+2026-10-18 19:26:25,884 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:25] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.001 0.005
+2026-10-18 19:26:26,563 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:26] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.003 0.003
+2026-10-18 19:26:34,311 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:34] "POST /web/dataset/call_button/library.loan/action_restore_active#library.loan.action_restore_active HTTP/1.1" 200 - 9 0.003 0.006
+2026-10-18 19:26:34,526 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:34] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.002 0.003
+2026-10-18 19:26:48,704 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:48] "POST /web/dataset/call_button/library.loan/action_return#library.loan.action_return HTTP/1.1" 200 - 7 0.002 0.006
+2026-10-18 19:26:49,019 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:49] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.002 0.004
+2026-10-18 19:26:50,016 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:50] "POST /web/dataset/call_button/library.loan/action_restore_active#library.loan.action_restore_active HTTP/1.1" 200 - 9 0.005 0.004
+2026-10-18 19:26:50,332 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:50] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.001 0.005
+2026-10-18 19:26:51,666 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:51] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 4 0.001 0.008
+2026-10-18 19:26:52,522 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:52] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 4 0.001 0.004
+2026-10-18 19:26:52,740 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:52] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 4 0.001 0.004
+2026-10-18 19:26:53,500 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:53] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.011
+2026-10-18 19:26:53,836 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:53] "POST /web/dataset/call_kw/library.copy/get_views#library.copy.get_views HTTP/1.1" 200 - 11 0.007 0.012
+2026-10-18 19:26:54,021 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:54] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.001 0.004
+2026-10-18 19:26:54,157 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:54] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.011
+2026-10-18 19:26:54,463 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:54] "POST /web/dataset/call_kw/library.member/get_views#library.member.get_views HTTP/1.1" 200 - 14 0.005 0.018
+2026-10-18 19:26:54,479 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:54] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 3 0.000 0.006
+2026-10-18 19:26:54,775 15456 INFO odoo werkzeug: 127.0.0.1 - - [18/Oct/2026 19:26:54] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.001 0.005

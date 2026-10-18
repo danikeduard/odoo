@@ -73,7 +73,6 @@ def create_and_close_loan(env):
             "copy_id": copy.id,
             "member_id": member.id,
             "loan_date": today,
-            "due_date": fields.Date.add(today, days=14),
         }
     )
     print("Створена видача:", loan.id, loan.state, loan.copy_id.state)

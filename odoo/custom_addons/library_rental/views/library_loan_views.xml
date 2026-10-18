@@ -4,7 +4,7 @@
         <field name="name">library.loan.list</field>
         <field name="model">library.loan</field>
         <field name="arch" type="xml">
-            <list decoration-danger="state == 'overdue'" decoration-success="state == 'returned'">
+            <list decoration-danger="state == 'overdue'" decoration-muted="state == 'returned'">
                 <field name="copy_id"/>
                 <field name="member_id"/>
                 <field name="loan_date"/>
@@ -20,7 +20,8 @@
         <field name="arch" type="xml">
             <form>
                 <header>
-                    <button name="action_return" type="object" string="Повернути" class="btn-primary" invisible="state == 'returned'"/>
+                    <button name="action_return" type="object" string="Повернути книгу" class="btn-primary" invisible="state not in ('active', 'overdue')"/>
+                    <button name="action_restore_active" type="object" string="Відновити як активну" invisible="state != 'returned'"/>
                     <field name="state" widget="statusbar" statusbar_visible="active,overdue,returned"/>
                 </header>
                 <sheet>
@@ -30,6 +31,7 @@
                         <field name="loan_date"/>
                         <field name="due_date"/>
                         <field name="return_date" readonly="state == 'returned'"/>
+                        <field name="fine_amount" readonly="1"/>
                     </group>
                 </sheet>
             </form>

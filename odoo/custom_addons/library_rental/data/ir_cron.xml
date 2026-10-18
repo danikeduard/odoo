@@ -4,7 +4,7 @@
         <field name="name">Бібліотека: оновлення прострочених видач</field>
         <field name="model_id" ref="model_library_loan"/>
         <field name="state">code</field>
-        <field name="code">model._cron_update_overdue_loans()</field>
+        <field name="code">model._update_overdue_state()</field>
         <field name="interval_number">1</field>
         <field name="interval_type">days</field>
         <field name="active">True</field>
