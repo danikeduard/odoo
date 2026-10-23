@@ -69,8 +69,8 @@ class LibraryLoan(models.Model):
 
     @api.depends("state", "due_date")
     def _compute_is_overdue(self):
-        today = fields.Date.today()
         for rec in self:
+            today = fields.Date.context_today(rec)
             rec.is_overdue = bool(
                 rec.state in ("active", "overdue")
                 and rec.due_date
@@ -149,10 +149,10 @@ class LibraryLoan(models.Model):
             raise ValidationError(
                 _("Стан видачі змінюється автоматично датами або поверненням.")
             )
-        today = fields.Date.today()
         for loan in self:
             loan_date = fields.Date.to_date(vals.get("loan_date", loan.loan_date))
             return_date = fields.Date.to_date(vals.get("return_date", loan.return_date))
+            today = fields.Date.context_today(loan)
             if return_date and loan_date and return_date < loan_date:
                 raise ValidationError(
                     _("Фактична дата повернення не може бути раніше дати видачі.")
@@ -182,7 +182,7 @@ class LibraryLoan(models.Model):
 
     def action_return(self):
         self.ensure_one()
-        self.write({"return_date": fields.Date.today()})
+        self.write({"return_date": fields.Date.context_today(self)})
         return True
 
     def action_restore_active(self):
@@ -192,7 +192,7 @@ class LibraryLoan(models.Model):
 
     @api.model
     def _update_overdue_state(self):
-        today = fields.Date.today()
+        today = fields.Date.context_today(self)
         open_loans = self.search(
             [
                 ("state", "in", ["active", "overdue"]),
