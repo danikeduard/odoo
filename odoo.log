@@ -5783,3 +5783,158 @@ DETAIL:  На ключ (id)=(7) все ще є посилання в таблиці "library_member".
 2026-11-12 10:08:20,989 19604 INFO library_rental_initial_data_check odoo.addons.base.models.ir_cron: Job 'Library: перевірка прострочених видач' (4) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
 2026-11-12 10:08:20,991 19604 INFO library_rental_initial_data_check odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
 2026-11-12 10:08:21,001 19604 INFO library_rental_initial_data_check odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) fully done (#loop 1; done 0; remaining 0; duration 0.00s) 
+2026-11-14 16:17:05,955 14728 INFO ? odoo: Odoo version 19.0-20261016 
+2026-11-14 16:17:05,955 14728 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-11-14 16:17:05,955 14728 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-11-14 16:17:05,955 14728 INFO ? odoo: database: odoo@localhost:5432 
+2026-11-14 16:17:07,748 14728 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-11-14 16:17:11,801 14728 INFO ? odoo.sql_db: Connection to the database failed 
+2026-11-14 16:18:07,234 18300 INFO ? odoo: Odoo version 19.0-20261016 
+2026-11-14 16:18:07,235 18300 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-11-14 16:18:07,235 18300 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-11-14 16:18:07,235 18300 INFO ? odoo: database: odoo@localhost:5432 
+2026-11-14 16:18:08,810 18300 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-11-14 16:18:16,790 18300 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-11-14 16:18:16,796 18300 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-11-14 16:18:16,835 18300 INFO ? odoo.modules.loading: loading 60 modules... 
+2026-11-14 16:18:16,846 18300 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-11-14 16:18:16,846 18300 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-11-14 16:18:17,913 18300 INFO ? odoo.modules.loading: 60 modules loaded in 1.08s, 0 queries (+0 extra) 
+2026-11-14 16:18:18,126 18300 INFO ? odoo.modules.loading: Modules loaded. 
+2026-11-14 16:18:18,165 18300 INFO ? odoo.registry: Registry loaded in 1.454s 
+2026-11-14 16:18:18,167 18300 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-11-14 16:18:18,210 18300 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (llK5KHy5sremoE9GcPM7EJskNlYM7yoIoa9lHXUW0g) 
+2026-11-14 16:18:18,250 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:18] "GET / HTTP/1.1" 303 - 33 0.109 1.432
+2026-11-14 16:18:19,316 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /odoo HTTP/1.1" 200 - 80 0.064 0.992
+2026-11-14 16:18:19,345 18300 INFO ? werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.005
+2026-11-14 16:18:19,471 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/assets/2a56e6b/web.assets_web.min.js HTTP/1.1" 200 - 3 0.003 0.134
+2026-11-14 16:18:19,502 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/assets/7251403/web.assets_web.min.css HTTP/1.1" 200 - 3 0.002 0.165
+2026-11-14 16:18:19,528 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 8 0.022 0.098
+2026-11-14 16:18:19,540 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/assets/70b512b/web.assets_web_print.min.css HTTP/1.1" 200 - 3 0.001 0.006
+2026-11-14 16:18:19,552 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/webclient/load_menus HTTP/1.1" 200 - 15 0.027 0.129
+2026-11-14 16:18:19,630 18300 INFO ? werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/static/img/odoo-icon-192x192.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-11-14 16:18:19,648 18300 INFO ? werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.003
+2026-11-14 16:18:19,728 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/bundle/web_tour.interactive?lang=uk_UA&debug=1 HTTP/1.1" 200 - 3 0.001 0.034
+2026-11-14 16:18:19,729 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 200 - 4 0.015 0.019
+2026-11-14 16:18:19,796 18300 INFO ? werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.026
+2026-11-14 16:18:19,816 18300 INFO ? werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.028
+2026-11-14 16:18:19,835 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/image/res.partner/3/avatar_128?unique=1794471076000 HTTP/1.1" 200 - 11 0.024 0.053
+2026-11-14 16:18:19,835 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 15 0.030 0.049
+2026-11-14 16:18:19,836 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "POST /web/action/load HTTP/1.1" 200 - 6 0.018 0.055
+2026-11-14 16:18:19,845 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.004 0.038
+2026-11-14 16:18:19,921 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "GET /web/assets/175eebe/web_tour.interactive.min.js HTTP/1.1" 200 - 3 0.027 0.018
+2026-11-14 16:18:19,946 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:19] "POST /mail/data HTTP/1.1" 200 - 21 0.089 0.040
+2026-11-14 16:18:20,073 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:20] "POST /mail/data HTTP/1.1" 200 - 46 0.171 0.065
+2026-11-14 16:18:20,172 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:20] "GET /web/image/discuss.channel/2/avatar_128?unique=929ebc986253f7779e5eadae1c9e572826d720275217ffaf48dd9ade7fd808e8508cb9518c37bf6c4b783fc1ac152d3faa2afbdb3252f13a690fd3c343aa8fff HTTP/1.1" 200 - 4 0.004 0.016
+2026-11-14 16:18:20,214 18300 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-11-14 16:18:20,231 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:20] "GET /web/image/discuss.channel/1/avatar_128?unique=efce4f38c18f7bb3d83fe616e92582381578d46e7c7c6b5feb295797d9b45e3a49602b3dedf7d6f2fff160bcab16e5a002e7e91276c08ce4f5210a109a19a9a6 HTTP/1.1" 200 - 4 0.014 0.048
+2026-11-14 16:18:20,231 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:20] "GET /web/image/res.partner/2/avatar_128?unique=1794478276000 HTTP/1.1" 200 - 6 0.011 0.059
+2026-11-14 16:18:20,232 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:20] "POST /discuss/channel/messages HTTP/1.1" 200 - 26 0.049 0.047
+2026-11-14 16:18:20,265 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:20] "GET /web/image/res.partner/3/avatar_128?unique=1794478276000 HTTP/1.1" 200 - 7 0.021 0.059
+2026-11-14 16:18:20,292 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:20] "GET /web/bundle/web.assets_emoji?lang=uk_UA&debug=1 HTTP/1.1" 200 - 2 0.007 0.019
+2026-11-14 16:18:20,404 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:20] "GET /web/assets/459ff30/web.assets_emoji.min.js HTTP/1.1" 200 - 3 0.002 0.062
+2026-11-14 16:18:21,866 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:21] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.006
+2026-11-14 16:18:21,918 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:21] "GET /web/webclient/translations?hash=8ae13fb370ae467186bb8bd64b81d4b0d1fc70c0&lang=uk_UA HTTP/1.1" 200 - 2 0.000 2.270
+2026-11-14 16:18:21,923 18300 INFO ? werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:21] "GET /mail/static/lib/idb-keyval/idb-keyval.js HTTP/1.1" 200 - 0 0.000 0.004
+2026-11-14 16:18:22,696 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:22] "POST /web/action/load HTTP/1.1" 200 - 10 0.006 0.015
+2026-11-14 16:18:22,726 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:22] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 6 0.007 0.006
+2026-11-14 16:18:22,754 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:22] "POST /web/dataset/call_kw/library.book/get_views#library.book.get_views HTTP/1.1" 200 - 29 0.016 0.034
+2026-11-14 16:18:47,058 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:47] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.012
+2026-11-14 16:18:47,078 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:47] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.001 0.007
+2026-11-14 16:18:47,099 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:47] "POST /web/dataset/call_kw/library.copy/get_views#library.copy.get_views HTTP/1.1" 200 - 18 0.004 0.027
+2026-11-14 16:18:54,916 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:54] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.011
+2026-11-14 16:18:54,946 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:54] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 4 0.001 0.008
+2026-11-14 16:18:54,967 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:18:54] "POST /web/dataset/call_kw/library.member/get_views#library.member.get_views HTTP/1.1" 200 - 18 0.015 0.017
+2026-11-14 16:19:00,348 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:19:00] "POST /web/action/load HTTP/1.1" 200 - 10 0.002 0.010
+2026-11-14 16:19:00,386 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:19:00] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 8 0.005 0.011
+2026-11-14 16:19:00,399 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:19:00] "POST /web/dataset/call_kw/library.loan/get_views#library.loan.get_views HTTP/1.1" 200 - 11 0.009 0.022
+2026-11-14 16:19:02,975 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:19:02] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 3 0.001 0.005
+2026-11-14 16:19:08,900 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:19:08] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.003 0.026
+2026-11-14 16:19:08,913 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2026-11-14 16:19:09,104 18300 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 1 entries 
+2026-11-14 16:19:09,117 18300 INFO odoo odoo.models.unlink: User #1 deleted base.module.uninstall records with IDs: [2, 3] 
+2026-11-14 16:19:09,127 18300 INFO odoo odoo.models.unlink: User #1 deleted base.module.update records with IDs: [12] 
+2026-11-14 16:19:09,133 18300 INFO odoo odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-11-14 16:19:09,190 18300 INFO odoo odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2026-11-14 16:19:09,238 18300 INFO odoo odoo.models.unlink: User #1 deleted res.config.settings records with IDs: [8, 9] 
+2026-11-14 16:19:09,246 18300 INFO odoo odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2026-11-14 16:19:09,251 18300 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-11-14 16:19:09,256 18300 INFO odoo odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-11-14 16:19:09,294 18300 INFO odoo odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2026-11-14 16:19:09,330 18300 INFO odoo odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-11-14 16:19:09,347 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 0; remaining 0; duration 0.42s) 
+2026-11-14 16:19:09,351 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (13) starting 
+2026-11-14 16:19:09,361 18300 INFO odoo odoo.addons.mail.models.mail_scheduled_message: Posting 0 scheduled messages 
+2026-11-14 16:19:09,363 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (13) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-11-14 16:19:09,365 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (14) starting 
+2026-11-14 16:19:09,375 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (14) fully done (#loop 1; done 0; remaining 0; duration 0.00s) 
+2026-11-14 16:19:09,377 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (15) starting 
+2026-11-14 16:19:09,387 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (15) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-11-14 16:19:09,389 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (16) starting 
+2026-11-14 16:19:09,400 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (16) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-11-14 16:19:09,402 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (18) starting 
+2026-11-14 16:19:09,413 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (18) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-11-14 16:19:09,415 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (19) starting 
+2026-11-14 16:19:09,427 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (19) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-11-14 16:19:09,428 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Gamification: Goal Challenge Check' (20) starting 
+2026-11-14 16:19:09,459 18300 INFO odoo odoo.models.unlink: User #1 deleted gamification.goal records with IDs: [2] 
+2026-11-14 16:19:09,488 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Gamification: Goal Challenge Check' (20) fully done (#loop 1; done 0; remaining 0; duration 0.06s) 
+2026-11-14 16:19:09,490 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Digest Emails' (22) starting 
+2026-11-14 16:19:09,822 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Digest Emails' (22) fully done (#loop 1; done 0; remaining 0; duration 0.33s) 
+2026-11-14 16:19:09,824 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'HR Employee: Notify Expiring Contract or Work Permit' (23) starting 
+2026-11-14 16:19:09,841 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'HR Employee: Notify Expiring Contract or Work Permit' (23) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-11-14 16:19:09,843 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'HR Employee: Update Current Version' (24) starting 
+2026-11-14 16:19:09,857 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'HR Employee: Update Current Version' (24) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-11-14 16:19:09,858 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Project Stage: Send rating' (27) starting 
+2026-11-14 16:19:09,869 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Project Stage: Send rating' (27) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-11-14 16:19:09,871 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Skills: Add an activity to employees with missing or expiring certifications' (28) starting 
+2026-11-14 16:19:09,885 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Skills: Add an activity to employees with missing or expiring certifications' (28) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-11-14 16:19:09,886 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Бібліотека: оновлення прострочених видач' (32) starting 
+2026-11-14 16:19:09,905 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Бібліотека: оновлення прострочених видач' (32) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-11-14 16:19:09,917 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Library: перевірка прострочених видач' (33) starting 
+2026-11-14 16:19:09,922 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (9) starting 
+2026-11-14 16:19:09,933 18300 INFO odoo odoo.addons.library_rental.models.loan: Перевірено прострочених видач: 0 
+2026-11-14 16:19:09,934 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Library: перевірка прострочених видач' (33) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-11-14 16:19:09,937 18300 INFO odoo odoo.addons.mail.models.mail_mail: Processing email queue with send limit of '1000' 
+2026-11-14 16:19:09,937 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (17) starting 
+2026-11-14 16:19:09,958 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (17) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-11-14 16:19:09,960 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail Marketing: Process queue' (25) starting 
+2026-11-14 16:19:09,973 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail Marketing: Process queue' (25) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-11-14 16:19:09,975 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
+2026-11-14 16:19:09,988 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-11-14 16:19:09,989 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Publisher: Update Notification' (10) starting 
+2026-11-14 16:19:10,276 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Publisher: Update Notification' (10) fully done (#loop 1; done 0; remaining 0; duration 0.28s) 
+2026-11-14 16:19:14,038 18300 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (9) fully done (#loop 1; done 0; remaining 0; duration 4.12s) 
+2026-11-14 16:19:16,200 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:19:16] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.001 0.006
+2026-11-14 16:19:35,685 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:19:35] "POST /web/dataset/call_kw/library.loan/onchange#library.loan.onchange HTTP/1.1" 200 - 6 0.001 0.008
+2026-11-14 16:19:56,614 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:19:56] "POST /web/dataset/call_kw/library.loan/web_save#library.loan.web_save HTTP/1.1" 200 - 13 0.002 0.010
+2026-11-14 16:19:56,633 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:19:56] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.009
+2026-11-14 16:19:56,657 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:19:56] "POST /web/dataset/call_kw/library.return.wizard/get_views#library.return.wizard.get_views HTTP/1.1" 200 - 10 0.001 0.012
+2026-11-14 16:19:56,668 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:19:56] "POST /web/dataset/call_kw/library.return.wizard/onchange#library.return.wizard.onchange HTTP/1.1" 200 - 2 0.001 0.004
+2026-11-14 16:20:21,598 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:21] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.001 0.005
+2026-11-14 16:20:22,650 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:22] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.001 0.007
+2026-11-14 16:20:23,805 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:23] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 3 0.003 0.004
+2026-11-14 16:20:24,829 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:24] "POST /web/dataset/call_kw/library.member/web_read#library.member.web_read HTTP/1.1" 200 - 6 0.002 0.006
+2026-11-14 16:20:26,929 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:26] "POST /web/action/load HTTP/1.1" 200 - 8 0.001 0.009
+2026-11-14 16:20:26,941 18300 INFO ? werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:26] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 0 0.000 0.003
+2026-11-14 16:20:26,952 18300 INFO odoo odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at c:\program files\odoo 19\thirdparty\wkhtmltopdf.exe 
+2026-11-14 16:20:26,982 18300 INFO odoo odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2026-11-14 16:20:26,983 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:26] "POST /report/check_wkhtmltopdf HTTP/1.1" 200 - 1 0.001 0.046
+2026-11-14 16:20:27,841 18300 INFO odoo odoo.addons.base.models.ir_actions_report: Generating PDF on Windows platform require DPI >= 96. Using 96 instead. 
+2026-11-14 16:20:30,027 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:30] "GET /web/assets/05d7ccd/web.report_assets_common.autoprefixed.min.css HTTP/1.1" 200 - 3 0.001 0.007
+2026-11-14 16:20:30,027 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:30] "GET /web/assets/8dbfc2f/web.report_assets_pdf.autoprefixed.min.css HTTP/1.1" 200 - 3 0.001 0.008
+2026-11-14 16:20:30,050 18300 INFO ? werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:30] "GET /web/static/fonts/lato/Lato-Reg-webfont.woff HTTP/1.1" 200 - 0 0.000 0.003
+2026-11-14 16:20:32,165 18300 INFO ? werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:32] "GET /web/static/fonts/lato/Lato-Lig-webfont.woff HTTP/1.1" 200 - 0 0.000 0.005
+2026-11-14 16:20:32,166 18300 INFO ? werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:32] "GET /web/static/fonts/lato/Lato-Bla-webfont.woff HTTP/1.1" 200 - 0 0.000 0.005
+2026-11-14 16:20:32,166 18300 INFO ? werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:32] "GET /web/static/fonts/lato/Lato-Hai-webfont.woff HTTP/1.1" 200 - 0 0.000 0.005
+2026-11-14 16:20:32,167 18300 INFO ? werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:32] "GET /web/static/fonts/lato/Lato-Bol-webfont.woff HTTP/1.1" 200 - 0 0.000 0.006
+2026-11-14 16:20:34,405 18300 INFO odoo odoo.addons.base.models.ir_actions_report: The PDF report has been generated for model: library.member, records [1]. 
+2026-11-14 16:20:34,406 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:34] "POST /report/download HTTP/1.1" 200 - 58 0.018 7.398
+2026-11-14 16:20:34,420 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:20:34] "POST /web/dataset/call_kw/library.member/web_read#library.member.web_read HTTP/1.1" 200 - 6 0.002 0.006
+2026-11-14 16:21:05,426 18300 INFO odoo werkzeug: 127.0.0.1 - - [14/Nov/2026 16:21:05] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2026-11-23 12:28:24,757 20064 INFO ? odoo: Odoo version 19.0-20261016 
+2026-11-23 12:28:24,757 20064 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-11-23 12:28:24,757 20064 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-11-23 12:28:24,758 20064 INFO ? odoo: database: odoo@localhost:5432 
+2026-11-23 12:28:26,416 20064 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-11-23 12:28:30,473 20064 INFO ? odoo.sql_db: Connection to the database failed 

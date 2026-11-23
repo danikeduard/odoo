@@ -22,6 +22,9 @@
         'views/library_menus.xml',
         'report/report_member_loan_history.xml',
     ],
+    'demo': [
+        'demo/library_demo.xml',
+    ],
     'post_init_hook': 'post_init_hook',
     'author': 'Eduard Danik',
     'installable': True,

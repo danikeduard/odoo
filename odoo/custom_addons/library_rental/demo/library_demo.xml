@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="demo_book_1" model="library.book">
+            <field name="name">Кобзар</field>
+            <field name="author">Тарас Шевченко</field>
+            <field name="publish_year">1840</field>
+        </record>
+        <record id="demo_book_2" model="library.book">
+            <field name="name">Лісова пісня</field>
+            <field name="author">Леся Українка</field>
+            <field name="publish_year">1911</field>
+        </record>
+        <record id="demo_book_3" model="library.book">
+            <field name="name">1984</field>
+            <field name="author">Джордж Орвелл</field>
+            <field name="publish_year">1949</field>
+        </record>
+        <record id="demo_book_4" model="library.book">
+            <field name="name">Майстер і Маргарита</field>
+            <field name="author">Михайло Булгаков</field>
+            <field name="publish_year">1967</field>
+        </record>
+        <record id="demo_book_5" model="library.book">
+            <field name="name">Гаррі Поттер і філософський камінь</field>
+            <field name="author">Дж. К. Роулінг</field>
+            <field name="publish_year">1997</field>
+        </record>
+        <record id="demo_book_6" model="library.book">
+            <field name="name">Місто</field>
+            <field name="author">Валер'ян Підмогильний</field>
+            <field name="publish_year">1928</field>
+        </record>
+        <record id="demo_book_7" model="library.book">
+            <field name="name">Тигролови</field>
+            <field name="author">Іван Багряний</field>
+            <field name="publish_year">1944</field>
+        </record>
+        <record id="demo_book_8" model="library.book">
+            <field name="name">Маленький принц</field>
+            <field name="author">Антуан де Сент-Екзюпері</field>
+            <field name="publish_year">1943</field>
+        </record>
+
+        <record id="demo_copy_1" model="library.copy"><field name="name">LIB-001</field><field name="book_id" ref="demo_book_1"/><field name="state">available</field></record>
+        <record id="demo_copy_2" model="library.copy"><field name="name">LIB-002</field><field name="book_id" ref="demo_book_1"/><field name="state">available</field></record>
+        <record id="demo_copy_3" model="library.copy"><field name="name">LIB-003</field><field name="book_id" ref="demo_book_2"/><field name="state">available</field></record>
+        <record id="demo_copy_4" model="library.copy"><field name="name">LIB-004</field><field name="book_id" ref="demo_book_2"/><field name="state">available</field></record>
+        <record id="demo_copy_5" model="library.copy"><field name="name">LIB-005</field><field name="book_id" ref="demo_book_3"/><field name="state">available</field></record>
+        <record id="demo_copy_6" model="library.copy"><field name="name">LIB-006</field><field name="book_id" ref="demo_book_3"/><field name="state">available</field></record>
+        <record id="demo_copy_7" model="library.copy"><field name="name">LIB-007</field><field name="book_id" ref="demo_book_4"/><field name="state">available</field></record>
+        <record id="demo_copy_8" model="library.copy"><field name="name">LIB-008</field><field name="book_id" ref="demo_book_5"/><field name="state">available</field></record>
+        <record id="demo_copy_9" model="library.copy"><field name="name">LIB-009</field><field name="book_id" ref="demo_book_6"/><field name="state">available</field></record>
+        <record id="demo_copy_10" model="library.copy"><field name="name">LIB-010</field><field name="book_id" ref="demo_book_7"/><field name="state">available</field></record>
+        <record id="demo_copy_11" model="library.copy"><field name="name">LIB-011</field><field name="book_id" ref="demo_book_8"/><field name="state">available</field></record>
+
+        <record id="demo_member_1" model="library.member">
+            <field name="name">Іван Петренко</field><field name="card_number">LIB-M-001</field>
+            <field name="email">ivan.petrenko@example.com</field><field name="phone">+380501110001</field>
+        </record>
+        <record id="demo_member_2" model="library.member">
+            <field name="name">Олена Коваленко</field><field name="card_number">LIB-M-002</field>
+            <field name="email">olena.kovalenko@example.com</field><field name="phone">+380502220002</field>
+        </record>
+        <record id="demo_member_3" model="library.member">
+            <field name="name">Андрій Мельник</field><field name="card_number">LIB-M-003</field>
+            <field name="email">andrii.melnyk@example.com</field><field name="phone">+380503330003</field>
+        </record>
+        <record id="demo_member_4" model="library.member">
+            <field name="name">Марія Бондаренко</field><field name="card_number">LIB-M-004</field>
+            <field name="email">maria.bondarenko@example.com</field><field name="phone">+380504440004</field>
+        </record>
+
+        <record id="demo_loan_overdue_1" model="library.loan">
+            <field name="copy_id" ref="demo_copy_1"/><field name="member_id" ref="demo_member_1"/>
+            <field name="loan_date" eval="(DateTime.today() - timedelta(days=30)).strftime('%Y-%m-%d')"/>
+        </record>
+        <record id="demo_loan_overdue_2" model="library.loan">
+            <field name="copy_id" ref="demo_copy_5"/><field name="member_id" ref="demo_member_1"/>
+            <field name="loan_date" eval="(DateTime.today() - timedelta(days=25)).strftime('%Y-%m-%d')"/>
+        </record>
+        <record id="demo_loan_active_1" model="library.loan">
+            <field name="copy_id" ref="demo_copy_3"/><field name="member_id" ref="demo_member_1"/>
+            <field name="loan_date" eval="(DateTime.today() - timedelta(days=3)).strftime('%Y-%m-%d')"/>
+        </record>
+        <record id="demo_loan_active_2" model="library.loan">
+            <field name="copy_id" ref="demo_copy_7"/><field name="member_id" ref="demo_member_2"/>
+            <field name="loan_date" eval="(DateTime.today() - timedelta(days=5)).strftime('%Y-%m-%d')"/>
+        </record>
+        <record id="demo_loan_active_3" model="library.loan">
+            <field name="copy_id" ref="demo_copy_9"/><field name="member_id" ref="demo_member_4"/>
+            <field name="loan_date" eval="(DateTime.today() - timedelta(days=8)).strftime('%Y-%m-%d')"/>
+        </record>
+        <record id="demo_loan_returned_1" model="library.loan">
+            <field name="copy_id" ref="demo_copy_2"/><field name="member_id" ref="demo_member_1"/>
+            <field name="loan_date" eval="(DateTime.today() - timedelta(days=40)).strftime('%Y-%m-%d')"/>
+        </record>
+        <function model="library.loan" name="write">
+            <value eval="[ref('demo_loan_returned_1')]"/>
+            <value eval="{'return_date': (DateTime.today() - timedelta(days=20)).strftime('%Y-%m-%d')}"/>
+        </function>
+        <record id="demo_loan_returned_2" model="library.loan">
+            <field name="copy_id" ref="demo_copy_8"/><field name="member_id" ref="demo_member_3"/>
+            <field name="loan_date" eval="(DateTime.today() - timedelta(days=25)).strftime('%Y-%m-%d')"/>
+        </record>
+        <function model="library.loan" name="write">
+            <value eval="[ref('demo_loan_returned_2')]"/>
+            <value eval="{'return_date': (DateTime.today() - timedelta(days=10)).strftime('%Y-%m-%d')}"/>
+        </function>
+    </data>
+</odoo>

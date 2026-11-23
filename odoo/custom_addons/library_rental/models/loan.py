@@ -216,13 +216,16 @@ class LibraryLoan(models.Model):
     def _cron_check_overdue_loans(self):
         overdue = self.search(
             [
-                ("state", "=", "active"),
+                ("state", "in", ["active", "overdue"]),
                 ("due_date", "<", fields.Date.today()),
             ]
         )
         for loan in overdue:
             try:
                 with self.env.cr.savepoint():
+                    loan.with_context(library_rental_sync=True).write(
+                        {"state": "overdue"}
+                    )
                     _logger.warning(
                         "Термін повернення прострочено для видачі %s.",
                         loan.id,
